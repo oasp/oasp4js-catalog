@@ -16,7 +16,7 @@ webpackEmptyContext.id = "../../../../../src async recursive";
 /***/ "../../../../../src/app/angular-comp-list/angular-comp-list.component.css":
 /***/ (function(module, exports, __webpack_require__) {
 
-exports = module.exports = __webpack_require__("../../node_modules/css-loader/lib/css-base.js")(false);
+exports = module.exports = __webpack_require__("../../../../css-loader/lib/css-base.js")(false);
 // imports
 
 
@@ -59,16 +59,16 @@ var AngularCompListComponent = (function () {
     }
     AngularCompListComponent.prototype.ngOnInit = function () {
     };
+    AngularCompListComponent = __decorate([
+        __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["Component"])({
+            selector: 'app-angular-comp-list',
+            template: __webpack_require__("../../../../../src/app/angular-comp-list/angular-comp-list.component.html"),
+            styles: [__webpack_require__("../../../../../src/app/angular-comp-list/angular-comp-list.component.css")]
+        }),
+        __metadata("design:paramtypes", [])
+    ], AngularCompListComponent);
     return AngularCompListComponent;
 }());
-AngularCompListComponent = __decorate([
-    __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["Component"])({
-        selector: 'app-angular-comp-list',
-        template: __webpack_require__("../../../../../src/app/angular-comp-list/angular-comp-list.component.html"),
-        styles: [__webpack_require__("../../../../../src/app/angular-comp-list/angular-comp-list.component.css")]
-    }),
-    __metadata("design:paramtypes", [])
-], AngularCompListComponent);
 
 //# sourceMappingURL=angular-comp-list.component.js.map
 
@@ -77,7 +77,7 @@ AngularCompListComponent = __decorate([
 /***/ "../../../../../src/app/app.component.css":
 /***/ (function(module, exports, __webpack_require__) {
 
-exports = module.exports = __webpack_require__("../../node_modules/css-loader/lib/css-base.js")(false);
+exports = module.exports = __webpack_require__("../../../../css-loader/lib/css-base.js")(false);
 // imports
 
 
@@ -122,18 +122,18 @@ var AppComponent = (function () {
         this.router = router;
     }
     ;
+    AppComponent = __decorate([
+        __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["Component"])({
+            selector: 'app-root',
+            template: __webpack_require__("../../../../../src/app/app.component.html"),
+            styles: [__webpack_require__("../../../../../src/app/app.component.css")]
+        }),
+        __metadata("design:paramtypes", [typeof (_a = typeof __WEBPACK_IMPORTED_MODULE_1__angular_router__["Router"] !== "undefined" && __WEBPACK_IMPORTED_MODULE_1__angular_router__["Router"]) === "function" && _a || Object])
+    ], AppComponent);
     return AppComponent;
+    var _a;
 }());
-AppComponent = __decorate([
-    __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["Component"])({
-        selector: 'app-root',
-        template: __webpack_require__("../../../../../src/app/app.component.html"),
-        styles: [__webpack_require__("../../../../../src/app/app.component.css")]
-    }),
-    __metadata("design:paramtypes", [typeof (_a = typeof __WEBPACK_IMPORTED_MODULE_1__angular_router__["Router"] !== "undefined" && __WEBPACK_IMPORTED_MODULE_1__angular_router__["Router"]) === "function" && _a || Object])
-], AppComponent);
 
-var _a;
 //# sourceMappingURL=app.component.js.map
 
 /***/ }),
@@ -324,125 +324,125 @@ function HttpLoaderFactory(http) {
 var AppModule = (function () {
     function AppModule() {
     }
+    AppModule = __decorate([
+        __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_2__angular_core__["NgModule"])({
+            declarations: [
+                __WEBPACK_IMPORTED_MODULE_11__app_component__["a" /* AppComponent */],
+                __WEBPACK_IMPORTED_MODULE_18__footer_footer_component__["a" /* FooterComponent */],
+                __WEBPACK_IMPORTED_MODULE_19__tab_panel_tab_panel_component__["a" /* TabPanelComponent */],
+                __WEBPACK_IMPORTED_MODULE_20__used_technologies_used_technologies_component__["a" /* UsedTechnologiesComponent */],
+                __WEBPACK_IMPORTED_MODULE_21__slider_slider_component__["a" /* SliderComponent */],
+                __WEBPACK_IMPORTED_MODULE_23__header_header_component__["a" /* HeaderComponent */],
+                __WEBPACK_IMPORTED_MODULE_24__material_design_material_design_component__["a" /* MaterialDesignComponent */],
+                __WEBPACK_IMPORTED_MODULE_25__material_design_form_control_md_input_component__["a" /* MdInputComponent */],
+                __WEBPACK_IMPORTED_MODULE_26__material_design_form_control_checkbox_checkbox_component__["a" /* CheckboxComponent */],
+                __WEBPACK_IMPORTED_MODULE_27__material_design_form_control_input_text_area_input_text_area_component__["a" /* InputTextAreaComponent */],
+                __WEBPACK_IMPORTED_MODULE_28__material_design_form_control_dropdown_dropdown_component__["a" /* DropdownComponent */],
+                __WEBPACK_IMPORTED_MODULE_29__material_design_form_control_password_password_component__["a" /* PasswordComponent */],
+                __WEBPACK_IMPORTED_MODULE_30__material_design_form_control_basic_calender_basic_calender_component__["a" /* BasicCalenderComponent */],
+                __WEBPACK_IMPORTED_MODULE_31__material_design_button_button_component__["a" /* ButtonComponent */],
+                __WEBPACK_IMPORTED_MODULE_32__material_design_sidenav_sidenav_component__["a" /* SidenavComponent */],
+                __WEBPACK_IMPORTED_MODULE_33__material_design_datatable_datatable_component__["a" /* DatatableComponent */],
+                __WEBPACK_IMPORTED_MODULE_34__angular_comp_list_angular_comp_list_component__["a" /* AngularCompListComponent */],
+                __WEBPACK_IMPORTED_MODULE_35__bootstrap_bootstrap_component__["a" /* BootstrapComponent */],
+                __WEBPACK_IMPORTED_MODULE_36__primeng_primeng_component__["a" /* PrimengComponent */],
+                __WEBPACK_IMPORTED_MODULE_37__misc_misc_component__["a" /* MiscComponent */],
+                __WEBPACK_IMPORTED_MODULE_39__bootstrap_ng_bootstrap_button_ng_bootstrap_button_component__["a" /* NgBootstrapButtonComponent */],
+                __WEBPACK_IMPORTED_MODULE_40__bootstrap_ng_bootstrap_form_control_ng_bootstrap_form_control_component__["a" /* NgBootstrapFormControlComponent */],
+                __WEBPACK_IMPORTED_MODULE_41__bootstrap_ng_bootstrap_form_control_ng_bootstrap_dropdown_ng_bootstrap_dropdown_component__["a" /* NgBootstrapDropdownComponent */],
+                __WEBPACK_IMPORTED_MODULE_42__bootstrap_ng_bootstrap_form_control_ng_bootstrap_tooltip_ng_bootstrap_tooltip_component__["a" /* NgBootstrapTooltipComponent */],
+                __WEBPACK_IMPORTED_MODULE_43__bootstrap_ng_bootstrap_form_control_ng_bootstrap_datepicker_ng_bootstrap_datepicker_component__["a" /* NgBootstrapDatepickerComponent */],
+                __WEBPACK_IMPORTED_MODULE_44__bootstrap_ng_bootstrap_carousel_ng_bootstrap_carousel_component__["a" /* NgBootstrapCarouselComponent */],
+                __WEBPACK_IMPORTED_MODULE_45__bootstrap_ng_bootstrap_tabset_ng_bootstrap_tabset_component__["a" /* NgBootstrapTabsetComponent */],
+                __WEBPACK_IMPORTED_MODULE_46__primeng_primeng_button_primeng_button_component__["a" /* PrimengButtonComponent */],
+                __WEBPACK_IMPORTED_MODULE_47__primeng_primeng_form_control_primeng_form_control_component__["a" /* PrimengFormControlComponent */],
+                __WEBPACK_IMPORTED_MODULE_48__primeng_primeng_datatable_primeng_datatable_component__["a" /* PrimengDatatableComponent */],
+                __WEBPACK_IMPORTED_MODULE_49__primeng_primeng_menubar_primeng_menubar_component__["a" /* PrimengMenubarComponent */],
+                __WEBPACK_IMPORTED_MODULE_50__primeng_primeng_form_control_primeng_basic_calender_primeng_basic_calender_component__["a" /* PrimengBasicCalenderComponent */],
+                __WEBPACK_IMPORTED_MODULE_51__primeng_primeng_form_control_primeng_checkbox_primeng_checkbox_component__["a" /* PrimengCheckboxComponent */],
+                __WEBPACK_IMPORTED_MODULE_52__primeng_primeng_form_control_primeng_dropdown_primeng_dropdown_component__["a" /* PrimengDropdownComponent */],
+                __WEBPACK_IMPORTED_MODULE_53__primeng_primeng_form_control_primeng_input_text_area_primeng_input_text_area_component__["a" /* PrimengInputTextAreaComponent */],
+                __WEBPACK_IMPORTED_MODULE_54__primeng_primeng_form_control_primeng_password_primeng_password_component__["a" /* PrimengPasswordComponent */],
+                __WEBPACK_IMPORTED_MODULE_56__misc_ngx_translate_ngx_translate_component__["a" /* NgxTranslateComponent */],
+                __WEBPACK_IMPORTED_MODULE_57__misc_ag_grid_ag_grid_component__["a" /* AgGridComponent */],
+                __WEBPACK_IMPORTED_MODULE_58__primeng_primeng_datatable_crud_primeng_datatable_crud_component__["a" /* PrimengDatatableCrudComponent */],
+            ],
+            imports: [
+                __WEBPACK_IMPORTED_MODULE_0__angular_platform_browser__["BrowserModule"],
+                __WEBPACK_IMPORTED_MODULE_1__angular_platform_browser_animations__["a" /* BrowserAnimationsModule */],
+                __WEBPACK_IMPORTED_MODULE_1__angular_platform_browser_animations__["b" /* NoopAnimationsModule */],
+                __WEBPACK_IMPORTED_MODULE_3__angular_common__["CommonModule"],
+                __WEBPACK_IMPORTED_MODULE_9__angular_forms__["FormsModule"],
+                __WEBPACK_IMPORTED_MODULE_10__angular_http__["a" /* HttpModule */],
+                /** ngx-translate */
+                __WEBPACK_IMPORTED_MODULE_16__ngx_translate_core__["a" /* TranslateModule */].forRoot({
+                    loader: {
+                        provide: __WEBPACK_IMPORTED_MODULE_16__ngx_translate_core__["b" /* TranslateLoader */],
+                        useFactory: HttpLoaderFactory,
+                        deps: [__WEBPACK_IMPORTED_MODULE_10__angular_http__["b" /* Http */]]
+                    }
+                }),
+                __WEBPACK_IMPORTED_MODULE_14__ng_bootstrap_ng_bootstrap__["a" /* NgbModule */].forRoot(),
+                __WEBPACK_IMPORTED_MODULE_12__angular_router__["RouterModule"].forRoot(routes),
+                __WEBPACK_IMPORTED_MODULE_22_angular2_markdown__["a" /* MarkdownModule */].forRoot(),
+                /** Material Modules */
+                __WEBPACK_IMPORTED_MODULE_13__angular_material__["i" /* MdCheckboxModule */],
+                __WEBPACK_IMPORTED_MODULE_13__angular_material__["b" /* MdCardModule */],
+                __WEBPACK_IMPORTED_MODULE_13__angular_material__["h" /* MdInputModule */],
+                __WEBPACK_IMPORTED_MODULE_13__angular_material__["n" /* MdSelectModule */],
+                __WEBPACK_IMPORTED_MODULE_13__angular_material__["o" /* MaterialModule */],
+                __WEBPACK_IMPORTED_MODULE_13__angular_material__["p" /* MdNativeDateModule */],
+                __WEBPACK_IMPORTED_MODULE_9__angular_forms__["ReactiveFormsModule"],
+                __WEBPACK_IMPORTED_MODULE_13__angular_material__["q" /* MdDatepickerModule */],
+                __WEBPACK_IMPORTED_MODULE_13__angular_material__["c" /* MdIconModule */],
+                __WEBPACK_IMPORTED_MODULE_13__angular_material__["d" /* MdListModule */],
+                __WEBPACK_IMPORTED_MODULE_13__angular_material__["e" /* MdMenuModule */],
+                __WEBPACK_IMPORTED_MODULE_13__angular_material__["f" /* MdTooltipModule */],
+                __WEBPACK_IMPORTED_MODULE_13__angular_material__["g" /* MdSlideToggleModule */],
+                __WEBPACK_IMPORTED_MODULE_13__angular_material__["j" /* MdToolbarModule */],
+                __WEBPACK_IMPORTED_MODULE_13__angular_material__["k" /* MdSnackBarModule */],
+                __WEBPACK_IMPORTED_MODULE_13__angular_material__["m" /* MdTabsModule */],
+                /** Covalent Modules */
+                __WEBPACK_IMPORTED_MODULE_4__covalent_http__["a" /* CovalentHttpModule */],
+                __WEBPACK_IMPORTED_MODULE_8__covalent_core__["e" /* CovalentLayoutModule */],
+                __WEBPACK_IMPORTED_MODULE_8__covalent_core__["l" /* CovalentExpansionPanelModule */],
+                __WEBPACK_IMPORTED_MODULE_8__covalent_core__["d" /* CovalentNotificationsModule */],
+                __WEBPACK_IMPORTED_MODULE_8__covalent_core__["f" /* CovalentMenuModule */],
+                __WEBPACK_IMPORTED_MODULE_8__covalent_core__["b" /* CovalentMediaModule */],
+                __WEBPACK_IMPORTED_MODULE_5__covalent_highlight__["a" /* CovalentHighlightModule */],
+                __WEBPACK_IMPORTED_MODULE_6__covalent_markdown__["a" /* CovalentMarkdownModule */],
+                __WEBPACK_IMPORTED_MODULE_7__covalent_dynamic_forms__["a" /* CovalentDynamicFormsModule */],
+                __WEBPACK_IMPORTED_MODULE_8__covalent_core__["a" /* CovalentDataTableModule */],
+                __WEBPACK_IMPORTED_MODULE_8__covalent_core__["c" /* CovalentLoadingModule */],
+                __WEBPACK_IMPORTED_MODULE_8__covalent_core__["g" /* CovalentPagingModule */],
+                __WEBPACK_IMPORTED_MODULE_8__covalent_core__["h" /* CovalentSearchModule */],
+                __WEBPACK_IMPORTED_MODULE_8__covalent_core__["i" /* CovalentStepsModule */],
+                __WEBPACK_IMPORTED_MODULE_8__covalent_core__["j" /* CovalentCommonModule */],
+                __WEBPACK_IMPORTED_MODULE_8__covalent_core__["k" /* CovalentDialogsModule */],
+                /** PrimeNG Modules */
+                __WEBPACK_IMPORTED_MODULE_15_primeng_primeng__["AccordionModule"],
+                __WEBPACK_IMPORTED_MODULE_15_primeng_primeng__["CalendarModule"],
+                __WEBPACK_IMPORTED_MODULE_15_primeng_primeng__["CheckboxModule"],
+                __WEBPACK_IMPORTED_MODULE_15_primeng_primeng__["DropdownModule"],
+                __WEBPACK_IMPORTED_MODULE_15_primeng_primeng__["InputTextModule"],
+                __WEBPACK_IMPORTED_MODULE_15_primeng_primeng__["ButtonModule"],
+                __WEBPACK_IMPORTED_MODULE_15_primeng_primeng__["MenubarModule"],
+                __WEBPACK_IMPORTED_MODULE_15_primeng_primeng__["DataTableModule"],
+                __WEBPACK_IMPORTED_MODULE_15_primeng_primeng__["SharedModule"],
+                __WEBPACK_IMPORTED_MODULE_15_primeng_primeng__["DialogModule"],
+            ],
+            exports: [
+                ANGULAR_MODULES,
+                MATERIAL_MODULES,
+                COVALENT_MODULES,
+                PRIMENG_MODULES,
+            ],
+            providers: [__WEBPACK_IMPORTED_MODULE_55__service_carservice__["a" /* CarService */],],
+            bootstrap: [__WEBPACK_IMPORTED_MODULE_11__app_component__["a" /* AppComponent */]]
+        })
+    ], AppModule);
     return AppModule;
 }());
-AppModule = __decorate([
-    __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_2__angular_core__["NgModule"])({
-        declarations: [
-            __WEBPACK_IMPORTED_MODULE_11__app_component__["a" /* AppComponent */],
-            __WEBPACK_IMPORTED_MODULE_18__footer_footer_component__["a" /* FooterComponent */],
-            __WEBPACK_IMPORTED_MODULE_19__tab_panel_tab_panel_component__["a" /* TabPanelComponent */],
-            __WEBPACK_IMPORTED_MODULE_20__used_technologies_used_technologies_component__["a" /* UsedTechnologiesComponent */],
-            __WEBPACK_IMPORTED_MODULE_21__slider_slider_component__["a" /* SliderComponent */],
-            __WEBPACK_IMPORTED_MODULE_23__header_header_component__["a" /* HeaderComponent */],
-            __WEBPACK_IMPORTED_MODULE_24__material_design_material_design_component__["a" /* MaterialDesignComponent */],
-            __WEBPACK_IMPORTED_MODULE_25__material_design_form_control_md_input_component__["a" /* MdInputComponent */],
-            __WEBPACK_IMPORTED_MODULE_26__material_design_form_control_checkbox_checkbox_component__["a" /* CheckboxComponent */],
-            __WEBPACK_IMPORTED_MODULE_27__material_design_form_control_input_text_area_input_text_area_component__["a" /* InputTextAreaComponent */],
-            __WEBPACK_IMPORTED_MODULE_28__material_design_form_control_dropdown_dropdown_component__["a" /* DropdownComponent */],
-            __WEBPACK_IMPORTED_MODULE_29__material_design_form_control_password_password_component__["a" /* PasswordComponent */],
-            __WEBPACK_IMPORTED_MODULE_30__material_design_form_control_basic_calender_basic_calender_component__["a" /* BasicCalenderComponent */],
-            __WEBPACK_IMPORTED_MODULE_31__material_design_button_button_component__["a" /* ButtonComponent */],
-            __WEBPACK_IMPORTED_MODULE_32__material_design_sidenav_sidenav_component__["a" /* SidenavComponent */],
-            __WEBPACK_IMPORTED_MODULE_33__material_design_datatable_datatable_component__["a" /* DatatableComponent */],
-            __WEBPACK_IMPORTED_MODULE_34__angular_comp_list_angular_comp_list_component__["a" /* AngularCompListComponent */],
-            __WEBPACK_IMPORTED_MODULE_35__bootstrap_bootstrap_component__["a" /* BootstrapComponent */],
-            __WEBPACK_IMPORTED_MODULE_36__primeng_primeng_component__["a" /* PrimengComponent */],
-            __WEBPACK_IMPORTED_MODULE_37__misc_misc_component__["a" /* MiscComponent */],
-            __WEBPACK_IMPORTED_MODULE_39__bootstrap_ng_bootstrap_button_ng_bootstrap_button_component__["a" /* NgBootstrapButtonComponent */],
-            __WEBPACK_IMPORTED_MODULE_40__bootstrap_ng_bootstrap_form_control_ng_bootstrap_form_control_component__["a" /* NgBootstrapFormControlComponent */],
-            __WEBPACK_IMPORTED_MODULE_41__bootstrap_ng_bootstrap_form_control_ng_bootstrap_dropdown_ng_bootstrap_dropdown_component__["a" /* NgBootstrapDropdownComponent */],
-            __WEBPACK_IMPORTED_MODULE_42__bootstrap_ng_bootstrap_form_control_ng_bootstrap_tooltip_ng_bootstrap_tooltip_component__["a" /* NgBootstrapTooltipComponent */],
-            __WEBPACK_IMPORTED_MODULE_43__bootstrap_ng_bootstrap_form_control_ng_bootstrap_datepicker_ng_bootstrap_datepicker_component__["a" /* NgBootstrapDatepickerComponent */],
-            __WEBPACK_IMPORTED_MODULE_44__bootstrap_ng_bootstrap_carousel_ng_bootstrap_carousel_component__["a" /* NgBootstrapCarouselComponent */],
-            __WEBPACK_IMPORTED_MODULE_45__bootstrap_ng_bootstrap_tabset_ng_bootstrap_tabset_component__["a" /* NgBootstrapTabsetComponent */],
-            __WEBPACK_IMPORTED_MODULE_46__primeng_primeng_button_primeng_button_component__["a" /* PrimengButtonComponent */],
-            __WEBPACK_IMPORTED_MODULE_47__primeng_primeng_form_control_primeng_form_control_component__["a" /* PrimengFormControlComponent */],
-            __WEBPACK_IMPORTED_MODULE_48__primeng_primeng_datatable_primeng_datatable_component__["a" /* PrimengDatatableComponent */],
-            __WEBPACK_IMPORTED_MODULE_49__primeng_primeng_menubar_primeng_menubar_component__["a" /* PrimengMenubarComponent */],
-            __WEBPACK_IMPORTED_MODULE_50__primeng_primeng_form_control_primeng_basic_calender_primeng_basic_calender_component__["a" /* PrimengBasicCalenderComponent */],
-            __WEBPACK_IMPORTED_MODULE_51__primeng_primeng_form_control_primeng_checkbox_primeng_checkbox_component__["a" /* PrimengCheckboxComponent */],
-            __WEBPACK_IMPORTED_MODULE_52__primeng_primeng_form_control_primeng_dropdown_primeng_dropdown_component__["a" /* PrimengDropdownComponent */],
-            __WEBPACK_IMPORTED_MODULE_53__primeng_primeng_form_control_primeng_input_text_area_primeng_input_text_area_component__["a" /* PrimengInputTextAreaComponent */],
-            __WEBPACK_IMPORTED_MODULE_54__primeng_primeng_form_control_primeng_password_primeng_password_component__["a" /* PrimengPasswordComponent */],
-            __WEBPACK_IMPORTED_MODULE_56__misc_ngx_translate_ngx_translate_component__["a" /* NgxTranslateComponent */],
-            __WEBPACK_IMPORTED_MODULE_57__misc_ag_grid_ag_grid_component__["a" /* AgGridComponent */],
-            __WEBPACK_IMPORTED_MODULE_58__primeng_primeng_datatable_crud_primeng_datatable_crud_component__["a" /* PrimengDatatableCrudComponent */],
-        ],
-        imports: [
-            __WEBPACK_IMPORTED_MODULE_0__angular_platform_browser__["BrowserModule"],
-            __WEBPACK_IMPORTED_MODULE_1__angular_platform_browser_animations__["a" /* BrowserAnimationsModule */],
-            __WEBPACK_IMPORTED_MODULE_1__angular_platform_browser_animations__["b" /* NoopAnimationsModule */],
-            __WEBPACK_IMPORTED_MODULE_3__angular_common__["CommonModule"],
-            __WEBPACK_IMPORTED_MODULE_9__angular_forms__["FormsModule"],
-            __WEBPACK_IMPORTED_MODULE_10__angular_http__["a" /* HttpModule */],
-            /** ngx-translate */
-            __WEBPACK_IMPORTED_MODULE_16__ngx_translate_core__["a" /* TranslateModule */].forRoot({
-                loader: {
-                    provide: __WEBPACK_IMPORTED_MODULE_16__ngx_translate_core__["b" /* TranslateLoader */],
-                    useFactory: HttpLoaderFactory,
-                    deps: [__WEBPACK_IMPORTED_MODULE_10__angular_http__["b" /* Http */]]
-                }
-            }),
-            __WEBPACK_IMPORTED_MODULE_14__ng_bootstrap_ng_bootstrap__["a" /* NgbModule */].forRoot(),
-            __WEBPACK_IMPORTED_MODULE_12__angular_router__["RouterModule"].forRoot(routes),
-            __WEBPACK_IMPORTED_MODULE_22_angular2_markdown__["a" /* MarkdownModule */].forRoot(),
-            /** Material Modules */
-            __WEBPACK_IMPORTED_MODULE_13__angular_material__["i" /* MdCheckboxModule */],
-            __WEBPACK_IMPORTED_MODULE_13__angular_material__["b" /* MdCardModule */],
-            __WEBPACK_IMPORTED_MODULE_13__angular_material__["h" /* MdInputModule */],
-            __WEBPACK_IMPORTED_MODULE_13__angular_material__["n" /* MdSelectModule */],
-            __WEBPACK_IMPORTED_MODULE_13__angular_material__["o" /* MaterialModule */],
-            __WEBPACK_IMPORTED_MODULE_13__angular_material__["p" /* MdNativeDateModule */],
-            __WEBPACK_IMPORTED_MODULE_9__angular_forms__["ReactiveFormsModule"],
-            __WEBPACK_IMPORTED_MODULE_13__angular_material__["q" /* MdDatepickerModule */],
-            __WEBPACK_IMPORTED_MODULE_13__angular_material__["c" /* MdIconModule */],
-            __WEBPACK_IMPORTED_MODULE_13__angular_material__["d" /* MdListModule */],
-            __WEBPACK_IMPORTED_MODULE_13__angular_material__["e" /* MdMenuModule */],
-            __WEBPACK_IMPORTED_MODULE_13__angular_material__["f" /* MdTooltipModule */],
-            __WEBPACK_IMPORTED_MODULE_13__angular_material__["g" /* MdSlideToggleModule */],
-            __WEBPACK_IMPORTED_MODULE_13__angular_material__["j" /* MdToolbarModule */],
-            __WEBPACK_IMPORTED_MODULE_13__angular_material__["k" /* MdSnackBarModule */],
-            __WEBPACK_IMPORTED_MODULE_13__angular_material__["m" /* MdTabsModule */],
-            /** Covalent Modules */
-            __WEBPACK_IMPORTED_MODULE_4__covalent_http__["a" /* CovalentHttpModule */],
-            __WEBPACK_IMPORTED_MODULE_8__covalent_core__["e" /* CovalentLayoutModule */],
-            __WEBPACK_IMPORTED_MODULE_8__covalent_core__["l" /* CovalentExpansionPanelModule */],
-            __WEBPACK_IMPORTED_MODULE_8__covalent_core__["d" /* CovalentNotificationsModule */],
-            __WEBPACK_IMPORTED_MODULE_8__covalent_core__["f" /* CovalentMenuModule */],
-            __WEBPACK_IMPORTED_MODULE_8__covalent_core__["b" /* CovalentMediaModule */],
-            __WEBPACK_IMPORTED_MODULE_5__covalent_highlight__["a" /* CovalentHighlightModule */],
-            __WEBPACK_IMPORTED_MODULE_6__covalent_markdown__["a" /* CovalentMarkdownModule */],
-            __WEBPACK_IMPORTED_MODULE_7__covalent_dynamic_forms__["a" /* CovalentDynamicFormsModule */],
-            __WEBPACK_IMPORTED_MODULE_8__covalent_core__["a" /* CovalentDataTableModule */],
-            __WEBPACK_IMPORTED_MODULE_8__covalent_core__["c" /* CovalentLoadingModule */],
-            __WEBPACK_IMPORTED_MODULE_8__covalent_core__["g" /* CovalentPagingModule */],
-            __WEBPACK_IMPORTED_MODULE_8__covalent_core__["h" /* CovalentSearchModule */],
-            __WEBPACK_IMPORTED_MODULE_8__covalent_core__["i" /* CovalentStepsModule */],
-            __WEBPACK_IMPORTED_MODULE_8__covalent_core__["j" /* CovalentCommonModule */],
-            __WEBPACK_IMPORTED_MODULE_8__covalent_core__["k" /* CovalentDialogsModule */],
-            /** PrimeNG Modules */
-            __WEBPACK_IMPORTED_MODULE_15_primeng_primeng__["AccordionModule"],
-            __WEBPACK_IMPORTED_MODULE_15_primeng_primeng__["CalendarModule"],
-            __WEBPACK_IMPORTED_MODULE_15_primeng_primeng__["CheckboxModule"],
-            __WEBPACK_IMPORTED_MODULE_15_primeng_primeng__["DropdownModule"],
-            __WEBPACK_IMPORTED_MODULE_15_primeng_primeng__["InputTextModule"],
-            __WEBPACK_IMPORTED_MODULE_15_primeng_primeng__["ButtonModule"],
-            __WEBPACK_IMPORTED_MODULE_15_primeng_primeng__["MenubarModule"],
-            __WEBPACK_IMPORTED_MODULE_15_primeng_primeng__["DataTableModule"],
-            __WEBPACK_IMPORTED_MODULE_15_primeng_primeng__["SharedModule"],
-            __WEBPACK_IMPORTED_MODULE_15_primeng_primeng__["DialogModule"],
-        ],
-        exports: [
-            ANGULAR_MODULES,
-            MATERIAL_MODULES,
-            COVALENT_MODULES,
-            PRIMENG_MODULES,
-        ],
-        providers: [__WEBPACK_IMPORTED_MODULE_55__service_carservice__["a" /* CarService */],],
-        bootstrap: [__WEBPACK_IMPORTED_MODULE_11__app_component__["a" /* AppComponent */]]
-    })
-], AppModule);
 
 //# sourceMappingURL=app.module.js.map
 
@@ -451,7 +451,7 @@ AppModule = __decorate([
 /***/ "../../../../../src/app/bootstrap/bootstrap.component.css":
 /***/ (function(module, exports, __webpack_require__) {
 
-exports = module.exports = __webpack_require__("../../node_modules/css-loader/lib/css-base.js")(false);
+exports = module.exports = __webpack_require__("../../../../css-loader/lib/css-base.js")(false);
 // imports
 
 
@@ -494,16 +494,16 @@ var BootstrapComponent = (function () {
     }
     BootstrapComponent.prototype.ngOnInit = function () {
     };
+    BootstrapComponent = __decorate([
+        __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["Component"])({
+            selector: 'app-bootstrap',
+            template: __webpack_require__("../../../../../src/app/bootstrap/bootstrap.component.html"),
+            styles: [__webpack_require__("../../../../../src/app/bootstrap/bootstrap.component.css")]
+        }),
+        __metadata("design:paramtypes", [])
+    ], BootstrapComponent);
     return BootstrapComponent;
 }());
-BootstrapComponent = __decorate([
-    __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["Component"])({
-        selector: 'app-bootstrap',
-        template: __webpack_require__("../../../../../src/app/bootstrap/bootstrap.component.html"),
-        styles: [__webpack_require__("../../../../../src/app/bootstrap/bootstrap.component.css")]
-    }),
-    __metadata("design:paramtypes", [])
-], BootstrapComponent);
 
 //# sourceMappingURL=bootstrap.component.js.map
 
@@ -512,7 +512,7 @@ BootstrapComponent = __decorate([
 /***/ "../../../../../src/app/bootstrap/ng-bootstrap-button/ng-bootstrap-button.component.css":
 /***/ (function(module, exports, __webpack_require__) {
 
-exports = module.exports = __webpack_require__("../../node_modules/css-loader/lib/css-base.js")(false);
+exports = module.exports = __webpack_require__("../../../../css-loader/lib/css-base.js")(false);
 // imports
 
 
@@ -561,16 +561,16 @@ var NgBootstrapButtonComponent = (function () {
     }
     NgBootstrapButtonComponent.prototype.ngOnInit = function () {
     };
+    NgBootstrapButtonComponent = __decorate([
+        __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["Component"])({
+            selector: 'app-ng-bootstrap-button',
+            template: __webpack_require__("../../../../../src/app/bootstrap/ng-bootstrap-button/ng-bootstrap-button.component.html"),
+            styles: [__webpack_require__("../../../../../src/app/bootstrap/ng-bootstrap-button/ng-bootstrap-button.component.css")]
+        }),
+        __metadata("design:paramtypes", [])
+    ], NgBootstrapButtonComponent);
     return NgBootstrapButtonComponent;
 }());
-NgBootstrapButtonComponent = __decorate([
-    __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["Component"])({
-        selector: 'app-ng-bootstrap-button',
-        template: __webpack_require__("../../../../../src/app/bootstrap/ng-bootstrap-button/ng-bootstrap-button.component.html"),
-        styles: [__webpack_require__("../../../../../src/app/bootstrap/ng-bootstrap-button/ng-bootstrap-button.component.css")]
-    }),
-    __metadata("design:paramtypes", [])
-], NgBootstrapButtonComponent);
 
 //# sourceMappingURL=ng-bootstrap-button.component.js.map
 
@@ -579,7 +579,7 @@ NgBootstrapButtonComponent = __decorate([
 /***/ "../../../../../src/app/bootstrap/ng-bootstrap-carousel/ng-bootstrap-carousel.component.css":
 /***/ (function(module, exports, __webpack_require__) {
 
-exports = module.exports = __webpack_require__("../../node_modules/css-loader/lib/css-base.js")(false);
+exports = module.exports = __webpack_require__("../../../../css-loader/lib/css-base.js")(false);
 // imports
 
 
@@ -628,19 +628,19 @@ var NgBootstrapCarouselComponent = (function () {
     }
     NgBootstrapCarouselComponent.prototype.ngOnInit = function () {
     };
+    NgBootstrapCarouselComponent = __decorate([
+        __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["Component"])({
+            selector: 'app-ng-bootstrap-carousel',
+            template: __webpack_require__("../../../../../src/app/bootstrap/ng-bootstrap-carousel/ng-bootstrap-carousel.component.html"),
+            styles: [__webpack_require__("../../../../../src/app/bootstrap/ng-bootstrap-carousel/ng-bootstrap-carousel.component.css")],
+            providers: [__WEBPACK_IMPORTED_MODULE_1__ng_bootstrap_ng_bootstrap__["b" /* NgbCarouselConfig */]] // add NgbCarouselConfig to the component providers
+        }),
+        __metadata("design:paramtypes", [typeof (_a = typeof __WEBPACK_IMPORTED_MODULE_1__ng_bootstrap_ng_bootstrap__["b" /* NgbCarouselConfig */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_1__ng_bootstrap_ng_bootstrap__["b" /* NgbCarouselConfig */]) === "function" && _a || Object])
+    ], NgBootstrapCarouselComponent);
     return NgBootstrapCarouselComponent;
+    var _a;
 }());
-NgBootstrapCarouselComponent = __decorate([
-    __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["Component"])({
-        selector: 'app-ng-bootstrap-carousel',
-        template: __webpack_require__("../../../../../src/app/bootstrap/ng-bootstrap-carousel/ng-bootstrap-carousel.component.html"),
-        styles: [__webpack_require__("../../../../../src/app/bootstrap/ng-bootstrap-carousel/ng-bootstrap-carousel.component.css")],
-        providers: [__WEBPACK_IMPORTED_MODULE_1__ng_bootstrap_ng_bootstrap__["b" /* NgbCarouselConfig */]] // add NgbCarouselConfig to the component providers
-    }),
-    __metadata("design:paramtypes", [typeof (_a = typeof __WEBPACK_IMPORTED_MODULE_1__ng_bootstrap_ng_bootstrap__["b" /* NgbCarouselConfig */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_1__ng_bootstrap_ng_bootstrap__["b" /* NgbCarouselConfig */]) === "function" && _a || Object])
-], NgBootstrapCarouselComponent);
 
-var _a;
 //# sourceMappingURL=ng-bootstrap-carousel.component.js.map
 
 /***/ }),
@@ -648,7 +648,7 @@ var _a;
 /***/ "../../../../../src/app/bootstrap/ng-bootstrap-form-control/ng-bootstrap-datepicker/ng-bootstrap-datepicker.component.css":
 /***/ (function(module, exports, __webpack_require__) {
 
-exports = module.exports = __webpack_require__("../../node_modules/css-loader/lib/css-base.js")(false);
+exports = module.exports = __webpack_require__("../../../../css-loader/lib/css-base.js")(false);
 // imports
 
 
@@ -691,16 +691,16 @@ var NgBootstrapDatepickerComponent = (function () {
     }
     NgBootstrapDatepickerComponent.prototype.ngOnInit = function () {
     };
+    NgBootstrapDatepickerComponent = __decorate([
+        __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["Component"])({
+            selector: 'app-ng-bootstrap-datepicker',
+            template: __webpack_require__("../../../../../src/app/bootstrap/ng-bootstrap-form-control/ng-bootstrap-datepicker/ng-bootstrap-datepicker.component.html"),
+            styles: [__webpack_require__("../../../../../src/app/bootstrap/ng-bootstrap-form-control/ng-bootstrap-datepicker/ng-bootstrap-datepicker.component.css")]
+        }),
+        __metadata("design:paramtypes", [])
+    ], NgBootstrapDatepickerComponent);
     return NgBootstrapDatepickerComponent;
 }());
-NgBootstrapDatepickerComponent = __decorate([
-    __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["Component"])({
-        selector: 'app-ng-bootstrap-datepicker',
-        template: __webpack_require__("../../../../../src/app/bootstrap/ng-bootstrap-form-control/ng-bootstrap-datepicker/ng-bootstrap-datepicker.component.html"),
-        styles: [__webpack_require__("../../../../../src/app/bootstrap/ng-bootstrap-form-control/ng-bootstrap-datepicker/ng-bootstrap-datepicker.component.css")]
-    }),
-    __metadata("design:paramtypes", [])
-], NgBootstrapDatepickerComponent);
 
 //# sourceMappingURL=ng-bootstrap-datepicker.component.js.map
 
@@ -709,7 +709,7 @@ NgBootstrapDatepickerComponent = __decorate([
 /***/ "../../../../../src/app/bootstrap/ng-bootstrap-form-control/ng-bootstrap-dropdown/ng-bootstrap-dropdown.component.css":
 /***/ (function(module, exports, __webpack_require__) {
 
-exports = module.exports = __webpack_require__("../../node_modules/css-loader/lib/css-base.js")(false);
+exports = module.exports = __webpack_require__("../../../../css-loader/lib/css-base.js")(false);
 // imports
 
 
@@ -752,16 +752,16 @@ var NgBootstrapDropdownComponent = (function () {
     }
     NgBootstrapDropdownComponent.prototype.ngOnInit = function () {
     };
+    NgBootstrapDropdownComponent = __decorate([
+        __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["Component"])({
+            selector: 'app-ng-bootstrap-dropdown',
+            template: __webpack_require__("../../../../../src/app/bootstrap/ng-bootstrap-form-control/ng-bootstrap-dropdown/ng-bootstrap-dropdown.component.html"),
+            styles: [__webpack_require__("../../../../../src/app/bootstrap/ng-bootstrap-form-control/ng-bootstrap-dropdown/ng-bootstrap-dropdown.component.css")]
+        }),
+        __metadata("design:paramtypes", [])
+    ], NgBootstrapDropdownComponent);
     return NgBootstrapDropdownComponent;
 }());
-NgBootstrapDropdownComponent = __decorate([
-    __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["Component"])({
-        selector: 'app-ng-bootstrap-dropdown',
-        template: __webpack_require__("../../../../../src/app/bootstrap/ng-bootstrap-form-control/ng-bootstrap-dropdown/ng-bootstrap-dropdown.component.html"),
-        styles: [__webpack_require__("../../../../../src/app/bootstrap/ng-bootstrap-form-control/ng-bootstrap-dropdown/ng-bootstrap-dropdown.component.css")]
-    }),
-    __metadata("design:paramtypes", [])
-], NgBootstrapDropdownComponent);
 
 //# sourceMappingURL=ng-bootstrap-dropdown.component.js.map
 
@@ -770,7 +770,7 @@ NgBootstrapDropdownComponent = __decorate([
 /***/ "../../../../../src/app/bootstrap/ng-bootstrap-form-control/ng-bootstrap-form-control.component.css":
 /***/ (function(module, exports, __webpack_require__) {
 
-exports = module.exports = __webpack_require__("../../node_modules/css-loader/lib/css-base.js")(false);
+exports = module.exports = __webpack_require__("../../../../css-loader/lib/css-base.js")(false);
 // imports
 
 
@@ -813,16 +813,16 @@ var NgBootstrapFormControlComponent = (function () {
     }
     NgBootstrapFormControlComponent.prototype.ngOnInit = function () {
     };
+    NgBootstrapFormControlComponent = __decorate([
+        __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["Component"])({
+            selector: 'app-ng-bootstrap-form-control',
+            template: __webpack_require__("../../../../../src/app/bootstrap/ng-bootstrap-form-control/ng-bootstrap-form-control.component.html"),
+            styles: [__webpack_require__("../../../../../src/app/bootstrap/ng-bootstrap-form-control/ng-bootstrap-form-control.component.css")]
+        }),
+        __metadata("design:paramtypes", [])
+    ], NgBootstrapFormControlComponent);
     return NgBootstrapFormControlComponent;
 }());
-NgBootstrapFormControlComponent = __decorate([
-    __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["Component"])({
-        selector: 'app-ng-bootstrap-form-control',
-        template: __webpack_require__("../../../../../src/app/bootstrap/ng-bootstrap-form-control/ng-bootstrap-form-control.component.html"),
-        styles: [__webpack_require__("../../../../../src/app/bootstrap/ng-bootstrap-form-control/ng-bootstrap-form-control.component.css")]
-    }),
-    __metadata("design:paramtypes", [])
-], NgBootstrapFormControlComponent);
 
 //# sourceMappingURL=ng-bootstrap-form-control.component.js.map
 
@@ -831,7 +831,7 @@ NgBootstrapFormControlComponent = __decorate([
 /***/ "../../../../../src/app/bootstrap/ng-bootstrap-form-control/ng-bootstrap-tooltip/ng-bootstrap-tooltip.component.css":
 /***/ (function(module, exports, __webpack_require__) {
 
-exports = module.exports = __webpack_require__("../../node_modules/css-loader/lib/css-base.js")(false);
+exports = module.exports = __webpack_require__("../../../../css-loader/lib/css-base.js")(false);
 // imports
 
 
@@ -874,16 +874,16 @@ var NgBootstrapTooltipComponent = (function () {
     }
     NgBootstrapTooltipComponent.prototype.ngOnInit = function () {
     };
+    NgBootstrapTooltipComponent = __decorate([
+        __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["Component"])({
+            selector: 'app-ng-bootstrap-tooltip',
+            template: __webpack_require__("../../../../../src/app/bootstrap/ng-bootstrap-form-control/ng-bootstrap-tooltip/ng-bootstrap-tooltip.component.html"),
+            styles: [__webpack_require__("../../../../../src/app/bootstrap/ng-bootstrap-form-control/ng-bootstrap-tooltip/ng-bootstrap-tooltip.component.css")]
+        }),
+        __metadata("design:paramtypes", [])
+    ], NgBootstrapTooltipComponent);
     return NgBootstrapTooltipComponent;
 }());
-NgBootstrapTooltipComponent = __decorate([
-    __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["Component"])({
-        selector: 'app-ng-bootstrap-tooltip',
-        template: __webpack_require__("../../../../../src/app/bootstrap/ng-bootstrap-form-control/ng-bootstrap-tooltip/ng-bootstrap-tooltip.component.html"),
-        styles: [__webpack_require__("../../../../../src/app/bootstrap/ng-bootstrap-form-control/ng-bootstrap-tooltip/ng-bootstrap-tooltip.component.css")]
-    }),
-    __metadata("design:paramtypes", [])
-], NgBootstrapTooltipComponent);
 
 //# sourceMappingURL=ng-bootstrap-tooltip.component.js.map
 
@@ -892,7 +892,7 @@ NgBootstrapTooltipComponent = __decorate([
 /***/ "../../../../../src/app/bootstrap/ng-bootstrap-tabset/ng-bootstrap-tabset.component.css":
 /***/ (function(module, exports, __webpack_require__) {
 
-exports = module.exports = __webpack_require__("../../node_modules/css-loader/lib/css-base.js")(false);
+exports = module.exports = __webpack_require__("../../../../css-loader/lib/css-base.js")(false);
 // imports
 
 
@@ -935,16 +935,16 @@ var NgBootstrapTabsetComponent = (function () {
     }
     NgBootstrapTabsetComponent.prototype.ngOnInit = function () {
     };
+    NgBootstrapTabsetComponent = __decorate([
+        __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["Component"])({
+            selector: 'app-ng-bootstrap-tabset',
+            template: __webpack_require__("../../../../../src/app/bootstrap/ng-bootstrap-tabset/ng-bootstrap-tabset.component.html"),
+            styles: [__webpack_require__("../../../../../src/app/bootstrap/ng-bootstrap-tabset/ng-bootstrap-tabset.component.css")]
+        }),
+        __metadata("design:paramtypes", [])
+    ], NgBootstrapTabsetComponent);
     return NgBootstrapTabsetComponent;
 }());
-NgBootstrapTabsetComponent = __decorate([
-    __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["Component"])({
-        selector: 'app-ng-bootstrap-tabset',
-        template: __webpack_require__("../../../../../src/app/bootstrap/ng-bootstrap-tabset/ng-bootstrap-tabset.component.html"),
-        styles: [__webpack_require__("../../../../../src/app/bootstrap/ng-bootstrap-tabset/ng-bootstrap-tabset.component.css")]
-    }),
-    __metadata("design:paramtypes", [])
-], NgBootstrapTabsetComponent);
 
 //# sourceMappingURL=ng-bootstrap-tabset.component.js.map
 
@@ -953,7 +953,7 @@ NgBootstrapTabsetComponent = __decorate([
 /***/ "../../../../../src/app/footer/footer.component.css":
 /***/ (function(module, exports, __webpack_require__) {
 
-exports = module.exports = __webpack_require__("../../node_modules/css-loader/lib/css-base.js")(false);
+exports = module.exports = __webpack_require__("../../../../css-loader/lib/css-base.js")(false);
 // imports
 
 
@@ -971,7 +971,7 @@ module.exports = module.exports.toString();
 /***/ "../../../../../src/app/footer/footer.component.html":
 /***/ (function(module, exports) {
 
-module.exports = "<div id=\"footer\" class=\"container-fluid\">\r\n  <div class=\"container\">\r\n    <div class=\"row\">\r\n      <div class=\"col-12 text-xs-center\">      \r\n      <img src=\"../../assets/images/OASP_dark.png\">\r\n      </div>\r\n    </div>\r\n    <br>\r\n    <div class=\"row text-left\">\r\n      <div class=\"col-md-2 col-sm-2  hidden-md-down\">\r\n        <p class=\"titulo\"><b>Pages</b></p>\r\n        <p>OASP</p>\r\n        <p>OASPJ</p>\r\n        <p>OASPJS</p>\r\n        <p>OASP4NET</p>\r\n        <p>More</p>\r\n      </div>\r\n      <div class=\"col-md-2 col-sm-2  hidden-md-down\">\r\n        <p class=\"titulo\"><b>Links</b></p>\r\n        <p> <a href=\"wwww.devonfw.com\">www.devonfw.com</a></p>\r\n        <p> <a href=\"www.github.com\">www.github.com</a></p>\r\n        <p> <a href=\"#\">www.ejemplo.com</a></p>\r\n        <p> <a href=\"#\">www.ejemplo.com</a></p>\r\n        <p> <a href=\"#\">www.ejemplo.com</a></p>\r\n      </div>\r\n    </div>\r\n    <div class=\"row\">\r\n      <div class=\"col-lg-5 col-md-12 col-sm-5 col-12 text-xs-center\">\r\n        <p>© Capgemini 2017</p>\r\n        <p class=\"destacado\">This page is mantained by \r\n          Capgemini Germany APPS Evolve and Capgemini Spain</p>\r\n      </div>\r\n      <!--iconos-->\r\n      <div class=\"col-lg-4 col-md-12 col-sm-4 col-12 text-xs-center \">\r\n        <img src=\"../../assets/images/slideshare.png\" class=\"icon\">\r\n        <img src=\"../../assets/images/facebook.png\" class=\"icon\">\r\n        <img src=\"../../assets/images/twitter.png\" class=\"icon\">\r\n        <img src=\"../../assets/images/linkedin.png\" class=\"icon\">\r\n        <img src=\"../../assets/images/youtube.png\" class=\"icon\">\r\n      </div>\r\n      <div class=\"col-lg-2 col-md-12 col-sm-2 col-12 text-xs-center\">\r\n        <a href=\"https://www.es.capgemini.com/\"><img src=\"../../assets/images/logo_capgemini_white.png\" class=\"cap\"></a>\r\n      </div>\r\n    </div>\r\n  </div>\r\n</div>\r\n"
+module.exports = "<div id=\"footer\" class=\"container-fluid\">\r\n  <div class=\"container\">\r\n    <div class=\"row\">\r\n      <div class=\"col-12 text-xs-center\">      \r\n      <img src=\"assets/images/OASP_dark.png\">\r\n      </div>\r\n    </div>\r\n    <br>\r\n    <div class=\"row text-left\">\r\n      <div class=\"col-md-2 col-sm-2  hidden-md-down\">\r\n        <p class=\"titulo\"><b>Pages</b></p>\r\n        <p>OASP</p>\r\n        <p>OASPJ</p>\r\n        <p>OASPJS</p>\r\n        <p>OASP4NET</p>\r\n        <p>More</p>\r\n      </div>\r\n      <div class=\"col-md-2 col-sm-2  hidden-md-down\">\r\n        <p class=\"titulo\"><b>Links</b></p>\r\n        <p> <a href=\"wwww.devonfw.com\">www.devonfw.com</a></p>\r\n        <p> <a href=\"www.github.com\">www.github.com</a></p>\r\n        <p> <a href=\"#\">www.ejemplo.com</a></p>\r\n        <p> <a href=\"#\">www.ejemplo.com</a></p>\r\n        <p> <a href=\"#\">www.ejemplo.com</a></p>\r\n      </div>\r\n    </div>\r\n    <div class=\"row\">\r\n      <div class=\"col-lg-5 col-md-12 col-sm-5 col-12 text-xs-center\">\r\n        <p>© Capgemini 2017</p>\r\n        <p class=\"destacado\">This page is mantained by \r\n          Capgemini Germany APPS Evolve and Capgemini Spain</p>\r\n      </div>\r\n      <!--iconos-->\r\n      <div class=\"col-lg-4 col-md-12 col-sm-4 col-12 text-xs-center \">\r\n        <img src=\"assets/images/slideshare.png\" class=\"icon\">\r\n        <img src=\"assets/images/facebook.png\" class=\"icon\">\r\n        <img src=\"assets/images/twitter.png\" class=\"icon\">\r\n        <img src=\"assets/images/linkedin.png\" class=\"icon\">\r\n        <img src=\"assets/images/youtube.png\" class=\"icon\">\r\n      </div>\r\n      <div class=\"col-lg-2 col-md-12 col-sm-2 col-12 text-xs-center\">\r\n        <a href=\"https://www.es.capgemini.com/\"><img src=\"assets/images/logo_capgemini_white.png\" class=\"cap\"></a>\r\n      </div>\r\n    </div>\r\n  </div>\r\n</div>\r\n"
 
 /***/ }),
 
@@ -996,16 +996,16 @@ var FooterComponent = (function () {
     }
     FooterComponent.prototype.ngOnInit = function () {
     };
+    FooterComponent = __decorate([
+        __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["Component"])({
+            selector: 'app-footer',
+            template: __webpack_require__("../../../../../src/app/footer/footer.component.html"),
+            styles: [__webpack_require__("../../../../../src/app/footer/footer.component.css")]
+        }),
+        __metadata("design:paramtypes", [])
+    ], FooterComponent);
     return FooterComponent;
 }());
-FooterComponent = __decorate([
-    __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["Component"])({
-        selector: 'app-footer',
-        template: __webpack_require__("../../../../../src/app/footer/footer.component.html"),
-        styles: [__webpack_require__("../../../../../src/app/footer/footer.component.css")]
-    }),
-    __metadata("design:paramtypes", [])
-], FooterComponent);
 
 //# sourceMappingURL=footer.component.js.map
 
@@ -1014,7 +1014,7 @@ FooterComponent = __decorate([
 /***/ "../../../../../src/app/header/header.component.css":
 /***/ (function(module, exports, __webpack_require__) {
 
-exports = module.exports = __webpack_require__("../../node_modules/css-loader/lib/css-base.js")(false);
+exports = module.exports = __webpack_require__("../../../../css-loader/lib/css-base.js")(false);
 // imports
 
 
@@ -1032,7 +1032,7 @@ module.exports = module.exports.toString();
 /***/ "../../../../../src/app/header/header.component.html":
 /***/ (function(module, exports) {
 
-module.exports = "<nav class=\"navbar fixed-top navbar-toggleable-md navbar-light bg-faded\">\r\n  <button class=\"navbar-toggler navbar-toggler-right\" type=\"button\" (click)=\"isCollapsed = !isCollapsed\">\r\n    <span class=\"navbar-toggler-icon\"></span>\r\n  </button>\r\n  <a class=\"navbar-brand\" href=\"/angular-comp-list\"><img src=\"../../assets/images/OASP.png\"></a>\r\n\r\n  <div class=\"title-format\"> OASP4JS Angular Catalog  </div>\r\n</nav>\r\n"
+module.exports = "<nav class=\"navbar fixed-top navbar-toggleable-md navbar-light bg-faded\">\r\n  <button class=\"navbar-toggler navbar-toggler-right\" type=\"button\" (click)=\"isCollapsed = !isCollapsed\">\r\n    <span class=\"navbar-toggler-icon\"></span>\r\n  </button>\r\n  <a class=\"navbar-brand\" href=\"/angular-comp-list\"><img src=\"assets/images/OASP.png\"></a>\r\n\r\n  <div class=\"title-format\"> OASP4JS Angular Catalog  </div>\r\n</nav>\r\n"
 
 /***/ }),
 
@@ -1057,16 +1057,16 @@ var HeaderComponent = (function () {
     }
     HeaderComponent.prototype.ngOnInit = function () {
     };
+    HeaderComponent = __decorate([
+        __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["Component"])({
+            selector: 'app-header',
+            template: __webpack_require__("../../../../../src/app/header/header.component.html"),
+            styles: [__webpack_require__("../../../../../src/app/header/header.component.css")]
+        }),
+        __metadata("design:paramtypes", [])
+    ], HeaderComponent);
     return HeaderComponent;
 }());
-HeaderComponent = __decorate([
-    __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["Component"])({
-        selector: 'app-header',
-        template: __webpack_require__("../../../../../src/app/header/header.component.html"),
-        styles: [__webpack_require__("../../../../../src/app/header/header.component.css")]
-    }),
-    __metadata("design:paramtypes", [])
-], HeaderComponent);
 
 //# sourceMappingURL=header.component.js.map
 
@@ -1075,7 +1075,7 @@ HeaderComponent = __decorate([
 /***/ "../../../../../src/app/material-design/button/button.component.css":
 /***/ (function(module, exports, __webpack_require__) {
 
-exports = module.exports = __webpack_require__("../../node_modules/css-loader/lib/css-base.js")(false);
+exports = module.exports = __webpack_require__("../../../../css-loader/lib/css-base.js")(false);
 // imports
 
 
@@ -1118,16 +1118,16 @@ var ButtonComponent = (function () {
     }
     ButtonComponent.prototype.ngOnInit = function () {
     };
+    ButtonComponent = __decorate([
+        __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["Component"])({
+            selector: 'app-button',
+            template: __webpack_require__("../../../../../src/app/material-design/button/button.component.html"),
+            styles: [__webpack_require__("../../../../../src/app/material-design/button/button.component.css")]
+        }),
+        __metadata("design:paramtypes", [])
+    ], ButtonComponent);
     return ButtonComponent;
 }());
-ButtonComponent = __decorate([
-    __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["Component"])({
-        selector: 'app-button',
-        template: __webpack_require__("../../../../../src/app/material-design/button/button.component.html"),
-        styles: [__webpack_require__("../../../../../src/app/material-design/button/button.component.css")]
-    }),
-    __metadata("design:paramtypes", [])
-], ButtonComponent);
 
 //# sourceMappingURL=button.component.js.map
 
@@ -1136,7 +1136,7 @@ ButtonComponent = __decorate([
 /***/ "../../../../../src/app/material-design/datatable/datatable.component.css":
 /***/ (function(module, exports, __webpack_require__) {
 
-exports = module.exports = __webpack_require__("../../node_modules/css-loader/lib/css-base.js")(false);
+exports = module.exports = __webpack_require__("../../../../css-loader/lib/css-base.js")(false);
 // imports
 
 
@@ -1248,18 +1248,18 @@ var DatatableComponent = (function () {
     };
     DatatableComponent.prototype.ngOnInit = function () {
     };
+    DatatableComponent = __decorate([
+        __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["Component"])({
+            selector: 'app-datatable',
+            template: __webpack_require__("../../../../../src/app/material-design/datatable/datatable.component.html"),
+            styles: [__webpack_require__("../../../../../src/app/material-design/datatable/datatable.component.css")]
+        }),
+        __metadata("design:paramtypes", [typeof (_a = typeof __WEBPACK_IMPORTED_MODULE_1__covalent_core__["m" /* TdDialogService */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_1__covalent_core__["m" /* TdDialogService */]) === "function" && _a || Object])
+    ], DatatableComponent);
     return DatatableComponent;
+    var _a;
 }());
-DatatableComponent = __decorate([
-    __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["Component"])({
-        selector: 'app-datatable',
-        template: __webpack_require__("../../../../../src/app/material-design/datatable/datatable.component.html"),
-        styles: [__webpack_require__("../../../../../src/app/material-design/datatable/datatable.component.css")]
-    }),
-    __metadata("design:paramtypes", [typeof (_a = typeof __WEBPACK_IMPORTED_MODULE_1__covalent_core__["m" /* TdDialogService */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_1__covalent_core__["m" /* TdDialogService */]) === "function" && _a || Object])
-], DatatableComponent);
 
-var _a;
 //# sourceMappingURL=datatable.component.js.map
 
 /***/ }),
@@ -1267,7 +1267,7 @@ var _a;
 /***/ "../../../../../src/app/material-design/form-control/basic-calender/basic-calender.component.css":
 /***/ (function(module, exports, __webpack_require__) {
 
-exports = module.exports = __webpack_require__("../../node_modules/css-loader/lib/css-base.js")(false);
+exports = module.exports = __webpack_require__("../../../../css-loader/lib/css-base.js")(false);
 // imports
 
 
@@ -1310,16 +1310,16 @@ var BasicCalenderComponent = (function () {
     }
     BasicCalenderComponent.prototype.ngOnInit = function () {
     };
+    BasicCalenderComponent = __decorate([
+        __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["Component"])({
+            selector: 'app-basic-calender',
+            template: __webpack_require__("../../../../../src/app/material-design/form-control/basic-calender/basic-calender.component.html"),
+            styles: [__webpack_require__("../../../../../src/app/material-design/form-control/basic-calender/basic-calender.component.css")]
+        }),
+        __metadata("design:paramtypes", [])
+    ], BasicCalenderComponent);
     return BasicCalenderComponent;
 }());
-BasicCalenderComponent = __decorate([
-    __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["Component"])({
-        selector: 'app-basic-calender',
-        template: __webpack_require__("../../../../../src/app/material-design/form-control/basic-calender/basic-calender.component.html"),
-        styles: [__webpack_require__("../../../../../src/app/material-design/form-control/basic-calender/basic-calender.component.css")]
-    }),
-    __metadata("design:paramtypes", [])
-], BasicCalenderComponent);
 
 //# sourceMappingURL=basic-calender.component.js.map
 
@@ -1328,7 +1328,7 @@ BasicCalenderComponent = __decorate([
 /***/ "../../../../../src/app/material-design/form-control/checkbox/checkbox.component.css":
 /***/ (function(module, exports, __webpack_require__) {
 
-exports = module.exports = __webpack_require__("../../node_modules/css-loader/lib/css-base.js")(false);
+exports = module.exports = __webpack_require__("../../../../css-loader/lib/css-base.js")(false);
 // imports
 
 
@@ -1371,16 +1371,16 @@ var CheckboxComponent = (function () {
     }
     CheckboxComponent.prototype.ngOnInit = function () {
     };
+    CheckboxComponent = __decorate([
+        __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["Component"])({
+            selector: 'app-checkbox',
+            template: __webpack_require__("../../../../../src/app/material-design/form-control/checkbox/checkbox.component.html"),
+            styles: [__webpack_require__("../../../../../src/app/material-design/form-control/checkbox/checkbox.component.css")]
+        }),
+        __metadata("design:paramtypes", [])
+    ], CheckboxComponent);
     return CheckboxComponent;
 }());
-CheckboxComponent = __decorate([
-    __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["Component"])({
-        selector: 'app-checkbox',
-        template: __webpack_require__("../../../../../src/app/material-design/form-control/checkbox/checkbox.component.html"),
-        styles: [__webpack_require__("../../../../../src/app/material-design/form-control/checkbox/checkbox.component.css")]
-    }),
-    __metadata("design:paramtypes", [])
-], CheckboxComponent);
 
 //# sourceMappingURL=checkbox.component.js.map
 
@@ -1389,7 +1389,7 @@ CheckboxComponent = __decorate([
 /***/ "../../../../../src/app/material-design/form-control/dropdown/dropdown.component.css":
 /***/ (function(module, exports, __webpack_require__) {
 
-exports = module.exports = __webpack_require__("../../node_modules/css-loader/lib/css-base.js")(false);
+exports = module.exports = __webpack_require__("../../../../css-loader/lib/css-base.js")(false);
 // imports
 
 
@@ -1437,16 +1437,16 @@ var DropdownComponent = (function () {
     }
     DropdownComponent.prototype.ngOnInit = function () {
     };
+    DropdownComponent = __decorate([
+        __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["Component"])({
+            selector: 'app-dropdown',
+            template: __webpack_require__("../../../../../src/app/material-design/form-control/dropdown/dropdown.component.html"),
+            styles: [__webpack_require__("../../../../../src/app/material-design/form-control/dropdown/dropdown.component.css")]
+        }),
+        __metadata("design:paramtypes", [])
+    ], DropdownComponent);
     return DropdownComponent;
 }());
-DropdownComponent = __decorate([
-    __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["Component"])({
-        selector: 'app-dropdown',
-        template: __webpack_require__("../../../../../src/app/material-design/form-control/dropdown/dropdown.component.html"),
-        styles: [__webpack_require__("../../../../../src/app/material-design/form-control/dropdown/dropdown.component.css")]
-    }),
-    __metadata("design:paramtypes", [])
-], DropdownComponent);
 
 //# sourceMappingURL=dropdown.component.js.map
 
@@ -1455,7 +1455,7 @@ DropdownComponent = __decorate([
 /***/ "../../../../../src/app/material-design/form-control/input-text-area/input-text-area.component.css":
 /***/ (function(module, exports, __webpack_require__) {
 
-exports = module.exports = __webpack_require__("../../node_modules/css-loader/lib/css-base.js")(false);
+exports = module.exports = __webpack_require__("../../../../css-loader/lib/css-base.js")(false);
 // imports
 
 
@@ -1498,16 +1498,16 @@ var InputTextAreaComponent = (function () {
     }
     InputTextAreaComponent.prototype.ngOnInit = function () {
     };
+    InputTextAreaComponent = __decorate([
+        __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["Component"])({
+            selector: 'app-input-text-area',
+            template: __webpack_require__("../../../../../src/app/material-design/form-control/input-text-area/input-text-area.component.html"),
+            styles: [__webpack_require__("../../../../../src/app/material-design/form-control/input-text-area/input-text-area.component.css")]
+        }),
+        __metadata("design:paramtypes", [])
+    ], InputTextAreaComponent);
     return InputTextAreaComponent;
 }());
-InputTextAreaComponent = __decorate([
-    __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["Component"])({
-        selector: 'app-input-text-area',
-        template: __webpack_require__("../../../../../src/app/material-design/form-control/input-text-area/input-text-area.component.html"),
-        styles: [__webpack_require__("../../../../../src/app/material-design/form-control/input-text-area/input-text-area.component.css")]
-    }),
-    __metadata("design:paramtypes", [])
-], InputTextAreaComponent);
 
 //# sourceMappingURL=input-text-area.component.js.map
 
@@ -1516,7 +1516,7 @@ InputTextAreaComponent = __decorate([
 /***/ "../../../../../src/app/material-design/form-control/md-input.component.css":
 /***/ (function(module, exports, __webpack_require__) {
 
-exports = module.exports = __webpack_require__("../../node_modules/css-loader/lib/css-base.js")(false);
+exports = module.exports = __webpack_require__("../../../../css-loader/lib/css-base.js")(false);
 // imports
 
 
@@ -1559,16 +1559,16 @@ var MdInputComponent = (function () {
     }
     MdInputComponent.prototype.ngOnInit = function () {
     };
+    MdInputComponent = __decorate([
+        __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["Component"])({
+            selector: 'app-md-input',
+            template: __webpack_require__("../../../../../src/app/material-design/form-control/md-input.component.html"),
+            styles: [__webpack_require__("../../../../../src/app/material-design/form-control/md-input.component.css")]
+        }),
+        __metadata("design:paramtypes", [])
+    ], MdInputComponent);
     return MdInputComponent;
 }());
-MdInputComponent = __decorate([
-    __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["Component"])({
-        selector: 'app-md-input',
-        template: __webpack_require__("../../../../../src/app/material-design/form-control/md-input.component.html"),
-        styles: [__webpack_require__("../../../../../src/app/material-design/form-control/md-input.component.css")]
-    }),
-    __metadata("design:paramtypes", [])
-], MdInputComponent);
 
 //# sourceMappingURL=md-input.component.js.map
 
@@ -1577,7 +1577,7 @@ MdInputComponent = __decorate([
 /***/ "../../../../../src/app/material-design/form-control/password/password.component.css":
 /***/ (function(module, exports, __webpack_require__) {
 
-exports = module.exports = __webpack_require__("../../node_modules/css-loader/lib/css-base.js")(false);
+exports = module.exports = __webpack_require__("../../../../css-loader/lib/css-base.js")(false);
 // imports
 
 
@@ -1620,16 +1620,16 @@ var PasswordComponent = (function () {
     }
     PasswordComponent.prototype.ngOnInit = function () {
     };
+    PasswordComponent = __decorate([
+        __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["Component"])({
+            selector: 'app-password',
+            template: __webpack_require__("../../../../../src/app/material-design/form-control/password/password.component.html"),
+            styles: [__webpack_require__("../../../../../src/app/material-design/form-control/password/password.component.css")]
+        }),
+        __metadata("design:paramtypes", [])
+    ], PasswordComponent);
     return PasswordComponent;
 }());
-PasswordComponent = __decorate([
-    __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["Component"])({
-        selector: 'app-password',
-        template: __webpack_require__("../../../../../src/app/material-design/form-control/password/password.component.html"),
-        styles: [__webpack_require__("../../../../../src/app/material-design/form-control/password/password.component.css")]
-    }),
-    __metadata("design:paramtypes", [])
-], PasswordComponent);
 
 //# sourceMappingURL=password.component.js.map
 
@@ -1638,7 +1638,7 @@ PasswordComponent = __decorate([
 /***/ "../../../../../src/app/material-design/material-design.component.css":
 /***/ (function(module, exports, __webpack_require__) {
 
-exports = module.exports = __webpack_require__("../../node_modules/css-loader/lib/css-base.js")(false);
+exports = module.exports = __webpack_require__("../../../../css-loader/lib/css-base.js")(false);
 // imports
 
 
@@ -1681,16 +1681,16 @@ var MaterialDesignComponent = (function () {
     }
     MaterialDesignComponent.prototype.ngOnInit = function () {
     };
+    MaterialDesignComponent = __decorate([
+        __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["Component"])({
+            selector: 'app-material-design',
+            template: __webpack_require__("../../../../../src/app/material-design/material-design.component.html"),
+            styles: [__webpack_require__("../../../../../src/app/material-design/material-design.component.css")]
+        }),
+        __metadata("design:paramtypes", [])
+    ], MaterialDesignComponent);
     return MaterialDesignComponent;
 }());
-MaterialDesignComponent = __decorate([
-    __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["Component"])({
-        selector: 'app-material-design',
-        template: __webpack_require__("../../../../../src/app/material-design/material-design.component.html"),
-        styles: [__webpack_require__("../../../../../src/app/material-design/material-design.component.css")]
-    }),
-    __metadata("design:paramtypes", [])
-], MaterialDesignComponent);
 
 //# sourceMappingURL=material-design.component.js.map
 
@@ -1699,7 +1699,7 @@ MaterialDesignComponent = __decorate([
 /***/ "../../../../../src/app/material-design/sidenav/sidenav.component.css":
 /***/ (function(module, exports, __webpack_require__) {
 
-exports = module.exports = __webpack_require__("../../node_modules/css-loader/lib/css-base.js")(false);
+exports = module.exports = __webpack_require__("../../../../css-loader/lib/css-base.js")(false);
 // imports
 
 
@@ -1742,16 +1742,16 @@ var SidenavComponent = (function () {
     }
     SidenavComponent.prototype.ngOnInit = function () {
     };
+    SidenavComponent = __decorate([
+        __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["Component"])({
+            selector: 'app-sidenav',
+            template: __webpack_require__("../../../../../src/app/material-design/sidenav/sidenav.component.html"),
+            styles: [__webpack_require__("../../../../../src/app/material-design/sidenav/sidenav.component.css")]
+        }),
+        __metadata("design:paramtypes", [])
+    ], SidenavComponent);
     return SidenavComponent;
 }());
-SidenavComponent = __decorate([
-    __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["Component"])({
-        selector: 'app-sidenav',
-        template: __webpack_require__("../../../../../src/app/material-design/sidenav/sidenav.component.html"),
-        styles: [__webpack_require__("../../../../../src/app/material-design/sidenav/sidenav.component.css")]
-    }),
-    __metadata("design:paramtypes", [])
-], SidenavComponent);
 
 //# sourceMappingURL=sidenav.component.js.map
 
@@ -1760,7 +1760,7 @@ SidenavComponent = __decorate([
 /***/ "../../../../../src/app/misc/ag-grid/ag-grid.component.css":
 /***/ (function(module, exports, __webpack_require__) {
 
-exports = module.exports = __webpack_require__("../../node_modules/css-loader/lib/css-base.js")(false);
+exports = module.exports = __webpack_require__("../../../../css-loader/lib/css-base.js")(false);
 // imports
 
 
@@ -1803,16 +1803,16 @@ var AgGridComponent = (function () {
     }
     AgGridComponent.prototype.ngOnInit = function () {
     };
+    AgGridComponent = __decorate([
+        __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["Component"])({
+            selector: 'app-ag-grid',
+            template: __webpack_require__("../../../../../src/app/misc/ag-grid/ag-grid.component.html"),
+            styles: [__webpack_require__("../../../../../src/app/misc/ag-grid/ag-grid.component.css")]
+        }),
+        __metadata("design:paramtypes", [])
+    ], AgGridComponent);
     return AgGridComponent;
 }());
-AgGridComponent = __decorate([
-    __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["Component"])({
-        selector: 'app-ag-grid',
-        template: __webpack_require__("../../../../../src/app/misc/ag-grid/ag-grid.component.html"),
-        styles: [__webpack_require__("../../../../../src/app/misc/ag-grid/ag-grid.component.css")]
-    }),
-    __metadata("design:paramtypes", [])
-], AgGridComponent);
 
 //# sourceMappingURL=ag-grid.component.js.map
 
@@ -1821,7 +1821,7 @@ AgGridComponent = __decorate([
 /***/ "../../../../../src/app/misc/misc.component.css":
 /***/ (function(module, exports, __webpack_require__) {
 
-exports = module.exports = __webpack_require__("../../node_modules/css-loader/lib/css-base.js")(false);
+exports = module.exports = __webpack_require__("../../../../css-loader/lib/css-base.js")(false);
 // imports
 
 
@@ -1864,16 +1864,16 @@ var MiscComponent = (function () {
     }
     MiscComponent.prototype.ngOnInit = function () {
     };
+    MiscComponent = __decorate([
+        __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["Component"])({
+            selector: 'app-misc',
+            template: __webpack_require__("../../../../../src/app/misc/misc.component.html"),
+            styles: [__webpack_require__("../../../../../src/app/misc/misc.component.css")]
+        }),
+        __metadata("design:paramtypes", [])
+    ], MiscComponent);
     return MiscComponent;
 }());
-MiscComponent = __decorate([
-    __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["Component"])({
-        selector: 'app-misc',
-        template: __webpack_require__("../../../../../src/app/misc/misc.component.html"),
-        styles: [__webpack_require__("../../../../../src/app/misc/misc.component.css")]
-    }),
-    __metadata("design:paramtypes", [])
-], MiscComponent);
 
 //# sourceMappingURL=misc.component.js.map
 
@@ -1882,7 +1882,7 @@ MiscComponent = __decorate([
 /***/ "../../../../../src/app/misc/ngx-translate/ngx-translate.component.css":
 /***/ (function(module, exports, __webpack_require__) {
 
-exports = module.exports = __webpack_require__("../../node_modules/css-loader/lib/css-base.js")(false);
+exports = module.exports = __webpack_require__("../../../../css-loader/lib/css-base.js")(false);
 // imports
 
 
@@ -1933,18 +1933,18 @@ var NgxTranslateComponent = (function () {
     }
     NgxTranslateComponent.prototype.ngOnInit = function () {
     };
+    NgxTranslateComponent = __decorate([
+        __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["Component"])({
+            selector: 'app-ngx-translate',
+            template: __webpack_require__("../../../../../src/app/misc/ngx-translate/ngx-translate.component.html"),
+            styles: [__webpack_require__("../../../../../src/app/misc/ngx-translate/ngx-translate.component.css")]
+        }),
+        __metadata("design:paramtypes", [typeof (_a = typeof __WEBPACK_IMPORTED_MODULE_1__ngx_translate_core__["c" /* TranslateService */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_1__ngx_translate_core__["c" /* TranslateService */]) === "function" && _a || Object])
+    ], NgxTranslateComponent);
     return NgxTranslateComponent;
+    var _a;
 }());
-NgxTranslateComponent = __decorate([
-    __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["Component"])({
-        selector: 'app-ngx-translate',
-        template: __webpack_require__("../../../../../src/app/misc/ngx-translate/ngx-translate.component.html"),
-        styles: [__webpack_require__("../../../../../src/app/misc/ngx-translate/ngx-translate.component.css")]
-    }),
-    __metadata("design:paramtypes", [typeof (_a = typeof __WEBPACK_IMPORTED_MODULE_1__ngx_translate_core__["c" /* TranslateService */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_1__ngx_translate_core__["c" /* TranslateService */]) === "function" && _a || Object])
-], NgxTranslateComponent);
 
-var _a;
 //# sourceMappingURL=ngx-translate.component.js.map
 
 /***/ }),
@@ -1952,7 +1952,7 @@ var _a;
 /***/ "../../../../../src/app/primeng/primeng-button/primeng-button.component.css":
 /***/ (function(module, exports, __webpack_require__) {
 
-exports = module.exports = __webpack_require__("../../node_modules/css-loader/lib/css-base.js")(false);
+exports = module.exports = __webpack_require__("../../../../css-loader/lib/css-base.js")(false);
 // imports
 
 
@@ -1999,16 +1999,16 @@ var PrimengButtonComponent = (function () {
     PrimengButtonComponent.prototype.count = function () {
         this.clicks++;
     };
+    PrimengButtonComponent = __decorate([
+        __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["Component"])({
+            selector: 'app-primeng-button',
+            template: __webpack_require__("../../../../../src/app/primeng/primeng-button/primeng-button.component.html"),
+            styles: [__webpack_require__("../../../../../src/app/primeng/primeng-button/primeng-button.component.css")]
+        }),
+        __metadata("design:paramtypes", [])
+    ], PrimengButtonComponent);
     return PrimengButtonComponent;
 }());
-PrimengButtonComponent = __decorate([
-    __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["Component"])({
-        selector: 'app-primeng-button',
-        template: __webpack_require__("../../../../../src/app/primeng/primeng-button/primeng-button.component.html"),
-        styles: [__webpack_require__("../../../../../src/app/primeng/primeng-button/primeng-button.component.css")]
-    }),
-    __metadata("design:paramtypes", [])
-], PrimengButtonComponent);
 
 //# sourceMappingURL=primeng-button.component.js.map
 
@@ -2017,7 +2017,7 @@ PrimengButtonComponent = __decorate([
 /***/ "../../../../../src/app/primeng/primeng-datatable-crud/primeng-datatable-crud.component.css":
 /***/ (function(module, exports, __webpack_require__) {
 
-exports = module.exports = __webpack_require__("../../node_modules/css-loader/lib/css-base.js")(false);
+exports = module.exports = __webpack_require__("../../../../css-loader/lib/css-base.js")(false);
 // imports
 
 
@@ -2102,16 +2102,17 @@ var PrimengDatatableCrudComponent = (function () {
     PrimengDatatableCrudComponent.prototype.findSelectedCarIndex = function () {
         return this.cars.indexOf(this.selectedCar);
     };
+    PrimengDatatableCrudComponent = __decorate([
+        __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["Component"])({
+            selector: 'app-primeng-datatable-crud',
+            template: __webpack_require__("../../../../../src/app/primeng/primeng-datatable-crud/primeng-datatable-crud.component.html"),
+            styles: [__webpack_require__("../../../../../src/app/primeng/primeng-datatable-crud/primeng-datatable-crud.component.css")]
+        }),
+        __metadata("design:paramtypes", [typeof (_a = typeof __WEBPACK_IMPORTED_MODULE_1__service_carservice__["a" /* CarService */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_1__service_carservice__["a" /* CarService */]) === "function" && _a || Object])
+    ], PrimengDatatableCrudComponent);
     return PrimengDatatableCrudComponent;
+    var _a;
 }());
-PrimengDatatableCrudComponent = __decorate([
-    __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["Component"])({
-        selector: 'app-primeng-datatable-crud',
-        template: __webpack_require__("../../../../../src/app/primeng/primeng-datatable-crud/primeng-datatable-crud.component.html"),
-        styles: [__webpack_require__("../../../../../src/app/primeng/primeng-datatable-crud/primeng-datatable-crud.component.css")]
-    }),
-    __metadata("design:paramtypes", [typeof (_a = typeof __WEBPACK_IMPORTED_MODULE_1__service_carservice__["a" /* CarService */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_1__service_carservice__["a" /* CarService */]) === "function" && _a || Object])
-], PrimengDatatableCrudComponent);
 
 var PrimeCar = (function () {
     function PrimeCar(vin, year, brand, color) {
@@ -2122,7 +2123,6 @@ var PrimeCar = (function () {
     }
     return PrimeCar;
 }());
-var _a;
 //# sourceMappingURL=primeng-datatable-crud.component.js.map
 
 /***/ }),
@@ -2130,7 +2130,7 @@ var _a;
 /***/ "../../../../../src/app/primeng/primeng-datatable/primeng-datatable.component.css":
 /***/ (function(module, exports, __webpack_require__) {
 
-exports = module.exports = __webpack_require__("../../node_modules/css-loader/lib/css-base.js")(false);
+exports = module.exports = __webpack_require__("../../../../css-loader/lib/css-base.js")(false);
 // imports
 
 
@@ -2184,18 +2184,18 @@ var PrimengDatatableComponent = (function () {
             { field: 'color', header: 'Color' }
         ];
     };
+    PrimengDatatableComponent = __decorate([
+        __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["Component"])({
+            selector: 'app-primeng-datatable',
+            template: __webpack_require__("../../../../../src/app/primeng/primeng-datatable/primeng-datatable.component.html"),
+            styles: [__webpack_require__("../../../../../src/app/primeng/primeng-datatable/primeng-datatable.component.css")]
+        }),
+        __metadata("design:paramtypes", [typeof (_a = typeof __WEBPACK_IMPORTED_MODULE_1__service_carservice__["a" /* CarService */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_1__service_carservice__["a" /* CarService */]) === "function" && _a || Object])
+    ], PrimengDatatableComponent);
     return PrimengDatatableComponent;
+    var _a;
 }());
-PrimengDatatableComponent = __decorate([
-    __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["Component"])({
-        selector: 'app-primeng-datatable',
-        template: __webpack_require__("../../../../../src/app/primeng/primeng-datatable/primeng-datatable.component.html"),
-        styles: [__webpack_require__("../../../../../src/app/primeng/primeng-datatable/primeng-datatable.component.css")]
-    }),
-    __metadata("design:paramtypes", [typeof (_a = typeof __WEBPACK_IMPORTED_MODULE_1__service_carservice__["a" /* CarService */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_1__service_carservice__["a" /* CarService */]) === "function" && _a || Object])
-], PrimengDatatableComponent);
 
-var _a;
 //# sourceMappingURL=primeng-datatable.component.js.map
 
 /***/ }),
@@ -2203,7 +2203,7 @@ var _a;
 /***/ "../../../../../src/app/primeng/primeng-form-control/primeng-basic-calender/primeng-basic-calender.component.css":
 /***/ (function(module, exports, __webpack_require__) {
 
-exports = module.exports = __webpack_require__("../../node_modules/css-loader/lib/css-base.js")(false);
+exports = module.exports = __webpack_require__("../../../../css-loader/lib/css-base.js")(false);
 // imports
 
 
@@ -2267,15 +2267,15 @@ var PrimengBasicCalenderComponent = (function () {
         invalidDate.setDate(today.getDate() - 1);
         this.invalidDates = [today, invalidDate];
     };
+    PrimengBasicCalenderComponent = __decorate([
+        __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["Component"])({
+            selector: 'app-primeng-basic-calender',
+            template: __webpack_require__("../../../../../src/app/primeng/primeng-form-control/primeng-basic-calender/primeng-basic-calender.component.html"),
+            styles: [__webpack_require__("../../../../../src/app/primeng/primeng-form-control/primeng-basic-calender/primeng-basic-calender.component.css")]
+        })
+    ], PrimengBasicCalenderComponent);
     return PrimengBasicCalenderComponent;
 }());
-PrimengBasicCalenderComponent = __decorate([
-    __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["Component"])({
-        selector: 'app-primeng-basic-calender',
-        template: __webpack_require__("../../../../../src/app/primeng/primeng-form-control/primeng-basic-calender/primeng-basic-calender.component.html"),
-        styles: [__webpack_require__("../../../../../src/app/primeng/primeng-form-control/primeng-basic-calender/primeng-basic-calender.component.css")]
-    })
-], PrimengBasicCalenderComponent);
 
 //# sourceMappingURL=primeng-basic-calender.component.js.map
 
@@ -2284,7 +2284,7 @@ PrimengBasicCalenderComponent = __decorate([
 /***/ "../../../../../src/app/primeng/primeng-form-control/primeng-checkbox/primeng-checkbox.component.css":
 /***/ (function(module, exports, __webpack_require__) {
 
-exports = module.exports = __webpack_require__("../../node_modules/css-loader/lib/css-base.js")(false);
+exports = module.exports = __webpack_require__("../../../../css-loader/lib/css-base.js")(false);
 // imports
 
 
@@ -2330,16 +2330,16 @@ var PrimengCheckboxComponent = (function () {
     }
     PrimengCheckboxComponent.prototype.ngOnInit = function () {
     };
+    PrimengCheckboxComponent = __decorate([
+        __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["Component"])({
+            selector: 'app-primeng-checkbox',
+            template: __webpack_require__("../../../../../src/app/primeng/primeng-form-control/primeng-checkbox/primeng-checkbox.component.html"),
+            styles: [__webpack_require__("../../../../../src/app/primeng/primeng-form-control/primeng-checkbox/primeng-checkbox.component.css")]
+        }),
+        __metadata("design:paramtypes", [])
+    ], PrimengCheckboxComponent);
     return PrimengCheckboxComponent;
 }());
-PrimengCheckboxComponent = __decorate([
-    __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["Component"])({
-        selector: 'app-primeng-checkbox',
-        template: __webpack_require__("../../../../../src/app/primeng/primeng-form-control/primeng-checkbox/primeng-checkbox.component.html"),
-        styles: [__webpack_require__("../../../../../src/app/primeng/primeng-form-control/primeng-checkbox/primeng-checkbox.component.css")]
-    }),
-    __metadata("design:paramtypes", [])
-], PrimengCheckboxComponent);
 
 //# sourceMappingURL=primeng-checkbox.component.js.map
 
@@ -2348,7 +2348,7 @@ PrimengCheckboxComponent = __decorate([
 /***/ "../../../../../src/app/primeng/primeng-form-control/primeng-dropdown/primeng-dropdown.component.css":
 /***/ (function(module, exports, __webpack_require__) {
 
-exports = module.exports = __webpack_require__("../../node_modules/css-loader/lib/css-base.js")(false);
+exports = module.exports = __webpack_require__("../../../../css-loader/lib/css-base.js")(false);
 // imports
 
 
@@ -2409,16 +2409,16 @@ var PrimengDropdownComponent = (function () {
     }
     PrimengDropdownComponent.prototype.ngOnInit = function () {
     };
+    PrimengDropdownComponent = __decorate([
+        __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["Component"])({
+            selector: 'app-primeng-dropdown',
+            template: __webpack_require__("../../../../../src/app/primeng/primeng-form-control/primeng-dropdown/primeng-dropdown.component.html"),
+            styles: [__webpack_require__("../../../../../src/app/primeng/primeng-form-control/primeng-dropdown/primeng-dropdown.component.css")]
+        }),
+        __metadata("design:paramtypes", [])
+    ], PrimengDropdownComponent);
     return PrimengDropdownComponent;
 }());
-PrimengDropdownComponent = __decorate([
-    __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["Component"])({
-        selector: 'app-primeng-dropdown',
-        template: __webpack_require__("../../../../../src/app/primeng/primeng-form-control/primeng-dropdown/primeng-dropdown.component.html"),
-        styles: [__webpack_require__("../../../../../src/app/primeng/primeng-form-control/primeng-dropdown/primeng-dropdown.component.css")]
-    }),
-    __metadata("design:paramtypes", [])
-], PrimengDropdownComponent);
 
 //# sourceMappingURL=primeng-dropdown.component.js.map
 
@@ -2427,7 +2427,7 @@ PrimengDropdownComponent = __decorate([
 /***/ "../../../../../src/app/primeng/primeng-form-control/primeng-form-control.component.css":
 /***/ (function(module, exports, __webpack_require__) {
 
-exports = module.exports = __webpack_require__("../../node_modules/css-loader/lib/css-base.js")(false);
+exports = module.exports = __webpack_require__("../../../../css-loader/lib/css-base.js")(false);
 // imports
 
 
@@ -2470,16 +2470,16 @@ var PrimengFormControlComponent = (function () {
     }
     PrimengFormControlComponent.prototype.ngOnInit = function () {
     };
+    PrimengFormControlComponent = __decorate([
+        __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["Component"])({
+            selector: 'app-primeng-form-control',
+            template: __webpack_require__("../../../../../src/app/primeng/primeng-form-control/primeng-form-control.component.html"),
+            styles: [__webpack_require__("../../../../../src/app/primeng/primeng-form-control/primeng-form-control.component.css")]
+        }),
+        __metadata("design:paramtypes", [])
+    ], PrimengFormControlComponent);
     return PrimengFormControlComponent;
 }());
-PrimengFormControlComponent = __decorate([
-    __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["Component"])({
-        selector: 'app-primeng-form-control',
-        template: __webpack_require__("../../../../../src/app/primeng/primeng-form-control/primeng-form-control.component.html"),
-        styles: [__webpack_require__("../../../../../src/app/primeng/primeng-form-control/primeng-form-control.component.css")]
-    }),
-    __metadata("design:paramtypes", [])
-], PrimengFormControlComponent);
 
 //# sourceMappingURL=primeng-form-control.component.js.map
 
@@ -2488,7 +2488,7 @@ PrimengFormControlComponent = __decorate([
 /***/ "../../../../../src/app/primeng/primeng-form-control/primeng-input-text-area/primeng-input-text-area.component.css":
 /***/ (function(module, exports, __webpack_require__) {
 
-exports = module.exports = __webpack_require__("../../node_modules/css-loader/lib/css-base.js")(false);
+exports = module.exports = __webpack_require__("../../../../css-loader/lib/css-base.js")(false);
 // imports
 
 
@@ -2535,16 +2535,16 @@ var PrimengInputTextAreaComponent = (function () {
     };
     PrimengInputTextAreaComponent.prototype.ngOnInit = function () {
     };
+    PrimengInputTextAreaComponent = __decorate([
+        __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["Component"])({
+            selector: 'app-primeng-input-text-area',
+            template: __webpack_require__("../../../../../src/app/primeng/primeng-form-control/primeng-input-text-area/primeng-input-text-area.component.html"),
+            styles: [__webpack_require__("../../../../../src/app/primeng/primeng-form-control/primeng-input-text-area/primeng-input-text-area.component.css")]
+        }),
+        __metadata("design:paramtypes", [])
+    ], PrimengInputTextAreaComponent);
     return PrimengInputTextAreaComponent;
 }());
-PrimengInputTextAreaComponent = __decorate([
-    __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["Component"])({
-        selector: 'app-primeng-input-text-area',
-        template: __webpack_require__("../../../../../src/app/primeng/primeng-form-control/primeng-input-text-area/primeng-input-text-area.component.html"),
-        styles: [__webpack_require__("../../../../../src/app/primeng/primeng-form-control/primeng-input-text-area/primeng-input-text-area.component.css")]
-    }),
-    __metadata("design:paramtypes", [])
-], PrimengInputTextAreaComponent);
 
 //# sourceMappingURL=primeng-input-text-area.component.js.map
 
@@ -2553,7 +2553,7 @@ PrimengInputTextAreaComponent = __decorate([
 /***/ "../../../../../src/app/primeng/primeng-form-control/primeng-password/primeng-password.component.css":
 /***/ (function(module, exports, __webpack_require__) {
 
-exports = module.exports = __webpack_require__("../../node_modules/css-loader/lib/css-base.js")(false);
+exports = module.exports = __webpack_require__("../../../../css-loader/lib/css-base.js")(false);
 // imports
 
 
@@ -2596,16 +2596,16 @@ var PrimengPasswordComponent = (function () {
     }
     PrimengPasswordComponent.prototype.ngOnInit = function () {
     };
+    PrimengPasswordComponent = __decorate([
+        __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["Component"])({
+            selector: 'app-primeng-password',
+            template: __webpack_require__("../../../../../src/app/primeng/primeng-form-control/primeng-password/primeng-password.component.html"),
+            styles: [__webpack_require__("../../../../../src/app/primeng/primeng-form-control/primeng-password/primeng-password.component.css")]
+        }),
+        __metadata("design:paramtypes", [])
+    ], PrimengPasswordComponent);
     return PrimengPasswordComponent;
 }());
-PrimengPasswordComponent = __decorate([
-    __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["Component"])({
-        selector: 'app-primeng-password',
-        template: __webpack_require__("../../../../../src/app/primeng/primeng-form-control/primeng-password/primeng-password.component.html"),
-        styles: [__webpack_require__("../../../../../src/app/primeng/primeng-form-control/primeng-password/primeng-password.component.css")]
-    }),
-    __metadata("design:paramtypes", [])
-], PrimengPasswordComponent);
 
 //# sourceMappingURL=primeng-password.component.js.map
 
@@ -2614,7 +2614,7 @@ PrimengPasswordComponent = __decorate([
 /***/ "../../../../../src/app/primeng/primeng-menubar/primeng-menubar.component.css":
 /***/ (function(module, exports, __webpack_require__) {
 
-exports = module.exports = __webpack_require__("../../node_modules/css-loader/lib/css-base.js")(false);
+exports = module.exports = __webpack_require__("../../../../css-loader/lib/css-base.js")(false);
 // imports
 
 
@@ -2730,15 +2730,15 @@ var PrimengMenubarComponent = (function () {
             }
         ];
     };
+    PrimengMenubarComponent = __decorate([
+        __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["Component"])({
+            selector: 'app-primeng-menubar',
+            template: __webpack_require__("../../../../../src/app/primeng/primeng-menubar/primeng-menubar.component.html"),
+            styles: [__webpack_require__("../../../../../src/app/primeng/primeng-menubar/primeng-menubar.component.css")]
+        })
+    ], PrimengMenubarComponent);
     return PrimengMenubarComponent;
 }());
-PrimengMenubarComponent = __decorate([
-    __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["Component"])({
-        selector: 'app-primeng-menubar',
-        template: __webpack_require__("../../../../../src/app/primeng/primeng-menubar/primeng-menubar.component.html"),
-        styles: [__webpack_require__("../../../../../src/app/primeng/primeng-menubar/primeng-menubar.component.css")]
-    })
-], PrimengMenubarComponent);
 
 //# sourceMappingURL=primeng-menubar.component.js.map
 
@@ -2747,7 +2747,7 @@ PrimengMenubarComponent = __decorate([
 /***/ "../../../../../src/app/primeng/primeng.component.css":
 /***/ (function(module, exports, __webpack_require__) {
 
-exports = module.exports = __webpack_require__("../../node_modules/css-loader/lib/css-base.js")(false);
+exports = module.exports = __webpack_require__("../../../../css-loader/lib/css-base.js")(false);
 // imports
 
 
@@ -2790,16 +2790,16 @@ var PrimengComponent = (function () {
     }
     PrimengComponent.prototype.ngOnInit = function () {
     };
+    PrimengComponent = __decorate([
+        __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["Component"])({
+            selector: 'app-primeng',
+            template: __webpack_require__("../../../../../src/app/primeng/primeng.component.html"),
+            styles: [__webpack_require__("../../../../../src/app/primeng/primeng.component.css")]
+        }),
+        __metadata("design:paramtypes", [])
+    ], PrimengComponent);
     return PrimengComponent;
 }());
-PrimengComponent = __decorate([
-    __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["Component"])({
-        selector: 'app-primeng',
-        template: __webpack_require__("../../../../../src/app/primeng/primeng.component.html"),
-        styles: [__webpack_require__("../../../../../src/app/primeng/primeng.component.css")]
-    }),
-    __metadata("design:paramtypes", [])
-], PrimengComponent);
 
 //# sourceMappingURL=primeng.component.js.map
 
@@ -2848,14 +2848,14 @@ var CarService = (function () {
             .then(function (res) { return res.json().data; })
             .then(function (data) { return data; });
     };
+    CarService = __decorate([
+        __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["Injectable"])(),
+        __metadata("design:paramtypes", [typeof (_a = typeof __WEBPACK_IMPORTED_MODULE_1__angular_http__["b" /* Http */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_1__angular_http__["b" /* Http */]) === "function" && _a || Object])
+    ], CarService);
     return CarService;
+    var _a;
 }());
-CarService = __decorate([
-    __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["Injectable"])(),
-    __metadata("design:paramtypes", [typeof (_a = typeof __WEBPACK_IMPORTED_MODULE_1__angular_http__["b" /* Http */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_1__angular_http__["b" /* Http */]) === "function" && _a || Object])
-], CarService);
 
-var _a;
 //# sourceMappingURL=carservice.js.map
 
 /***/ }),
@@ -2863,7 +2863,7 @@ var _a;
 /***/ "../../../../../src/app/slider/slider.component.css":
 /***/ (function(module, exports, __webpack_require__) {
 
-exports = module.exports = __webpack_require__("../../node_modules/css-loader/lib/css-base.js")(false);
+exports = module.exports = __webpack_require__("../../../../css-loader/lib/css-base.js")(false);
 // imports
 
 
@@ -2881,7 +2881,7 @@ module.exports = module.exports.toString();
 /***/ "../../../../../src/app/slider/slider.component.html":
 /***/ (function(module, exports) {
 
-module.exports = "<div class=\"container-fluid slider\">\r\n  <div class=\"row nomargin\">\r\n    <div class=\"testimonials col-lg-6 offset-lg-3 col-sm-10 offset-sm-1 col-12\">\r\n      <ngb-carousel>\r\n        <ng-template ngbSlide>\r\n          <img class=\"d-flex align-self-top mr-3\" src=\"../../assets/images/slider1.jpg\">\r\n          <div class=\"carousel-caption\">\r\n            <h3>Ruben Martinez</h3>\r\n            <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>\r\n          </div>\r\n        </ng-template>\r\n        <ng-template ngbSlide>\r\n          <img class=\"d-flex align-self-top mr-3\" src=\"../../assets/images/slider2.jpg\">\r\n          <div class=\"carousel-caption\">\r\n            <h3>julie </h3>\r\n            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.\r\n              rem ipsum dolor sit amerem ipsum dolor sit amerem ipsum dolor sit amerem ipsum dolor sit.</p>\r\n          </div>\r\n        </ng-template>\r\n        <ng-template ngbSlide>\r\n          <img class=\"d-flex align-self-top mr-3\" src=\"../../assets/images/slider3.jpg\">\r\n          <div class=\"carousel-caption\">\r\n            <h3>julietta</h3>\r\n            <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>\r\n          </div>\r\n        </ng-template>\r\n      </ngb-carousel>\r\n    </div>\r\n  </div>\r\n</div>\r\n"
+module.exports = "<div class=\"container-fluid slider\">\r\n  <div class=\"row nomargin\">\r\n    <div class=\"testimonials col-lg-6 offset-lg-3 col-sm-10 offset-sm-1 col-12\">\r\n      <ngb-carousel>\r\n        <ng-template ngbSlide>\r\n          <img class=\"d-flex align-self-top mr-3\" src=\"assets/images/slider1.jpg\">\r\n          <div class=\"carousel-caption\">\r\n            <h3>Ruben Martinez</h3>\r\n            <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>\r\n          </div>\r\n        </ng-template>\r\n        <ng-template ngbSlide>\r\n          <img class=\"d-flex align-self-top mr-3\" src=\"assets/images/slider2.jpg\">\r\n          <div class=\"carousel-caption\">\r\n            <h3>julie </h3>\r\n            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.\r\n              rem ipsum dolor sit amerem ipsum dolor sit amerem ipsum dolor sit amerem ipsum dolor sit.</p>\r\n          </div>\r\n        </ng-template>\r\n        <ng-template ngbSlide>\r\n          <img class=\"d-flex align-self-top mr-3\" src=\"assets/images/slider3.jpg\">\r\n          <div class=\"carousel-caption\">\r\n            <h3>julietta</h3>\r\n            <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>\r\n          </div>\r\n        </ng-template>\r\n      </ngb-carousel>\r\n    </div>\r\n  </div>\r\n</div>\r\n"
 
 /***/ }),
 
@@ -2906,16 +2906,16 @@ var SliderComponent = (function () {
     }
     SliderComponent.prototype.ngOnInit = function () {
     };
+    SliderComponent = __decorate([
+        __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["Component"])({
+            selector: 'app-slider',
+            template: __webpack_require__("../../../../../src/app/slider/slider.component.html"),
+            styles: [__webpack_require__("../../../../../src/app/slider/slider.component.css")]
+        }),
+        __metadata("design:paramtypes", [])
+    ], SliderComponent);
     return SliderComponent;
 }());
-SliderComponent = __decorate([
-    __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["Component"])({
-        selector: 'app-slider',
-        template: __webpack_require__("../../../../../src/app/slider/slider.component.html"),
-        styles: [__webpack_require__("../../../../../src/app/slider/slider.component.css")]
-    }),
-    __metadata("design:paramtypes", [])
-], SliderComponent);
 
 //# sourceMappingURL=slider.component.js.map
 
@@ -2924,7 +2924,7 @@ SliderComponent = __decorate([
 /***/ "../../../../../src/app/tab-panel/tab-panel.component.css":
 /***/ (function(module, exports, __webpack_require__) {
 
-exports = module.exports = __webpack_require__("../../node_modules/css-loader/lib/css-base.js")(false);
+exports = module.exports = __webpack_require__("../../../../css-loader/lib/css-base.js")(false);
 // imports
 
 
@@ -2942,7 +2942,7 @@ module.exports = module.exports.toString();
 /***/ "../../../../../src/app/tab-panel/tab-panel.component.html":
 /***/ (function(module, exports) {
 
-module.exports = "<div class=\"container-fluid about\">\r\n  <div class=\"container\">\r\n    <ngb-tabset type=\"pills\" class=\"tabset\">\r\n      <ngb-tab title=\"Material Design (Covalent)\">\r\n        <ng-template ngbTabContent>\r\n          <div class=\"row\">\r\n            <div class=\"col-sm-1 col-md-4 col-6\">\r\n              <div class=\"gallery\">\r\n                <img src=\"../../assets/images/desktop_icon.png\" alt=\"Form Control\" >\r\n                <div class=\"desc\">\r\n                  <h5><a class=\"nav-link\" [routerLink]=\"['/MaterialDesign']\" fragment=\"md-form-control\">Form Control</a></h5>\r\n                </div>\r\n              </div>\r\n            </div>\r\n            <div class=\"col-sm-1 col-md-4 col-6\">\r\n              <div class=\"gallery\">\r\n                <img src=\"../../assets/images/web_icon.png\" alt=\"Button\">\r\n                <div class=\"desc\">\r\n                  <h5><a class=\"nav-link\" [routerLink]=\"['/MaterialDesign']\" fragment=\"md-button\">Buttons</a></h5>\r\n                </div>\r\n              </div>\r\n            </div>\r\n            <div class=\"col-sm-1 col-md-4 col-6\">\r\n              <div class=\"gallery\">\r\n                <img src=\"../../assets/images/mobile_icon.png\" alt=\"SideNav\">\r\n                <div class=\"desc\">\r\n                  <h5><a class=\"nav-link\" [routerLink]=\"['/MaterialDesign']\" fragment=\"md-sidenav\">SideNav</a></h5>\r\n                </div>\r\n              </div>\r\n            </div>\r\n            <div class=\"col-sm-1 col-md-4 col-6\">\r\n              <div class=\"gallery\">\r\n                <img src=\"../../assets/images/batch_icon.png\" alt=\"DataTable\">\r\n                <div class=\"desc\">\r\n                  <h5><a class=\"nav-link\" [routerLink]=\"['/MaterialDesign']\" fragment=\"md-data-table\">DataTable</a></h5>\r\n                </div>\r\n              </div>\r\n            </div>\r\n          </div>\r\n        </ng-template>\r\n      </ngb-tab>\r\n\r\n      <ngb-tab title=\"Bootstrap\">\r\n        <ng-template ngbTabContent>\r\n          <div class=\"row\">\r\n            <div class=\"col-sm-1 col-md-4 col-6\">\r\n              <div class=\"gallery\">\r\n                <img src=\"../../assets/images/desktop_icon.png\" alt=\"Form Control\" >\r\n                <div class=\"desc\">\r\n                  <h5><a class=\"nav-link\" [routerLink]=\"['/Bootstrap']\" fragment=\"bs-form-control\">Form Controls</a></h5>\r\n                </div>\r\n              </div>\r\n            </div>\r\n            <div class=\"col-sm-1 col-md-4 col-6\">\r\n              <div class=\"gallery\">\r\n                <img src=\"../../assets/images/web_icon.png\" alt=\"Button\">\r\n                <div class=\"desc\">\r\n                  <h5><a class=\"nav-link\" [routerLink]=\"['/Bootstrap']\" fragment=\"bs-button\">Buttons</a></h5>\r\n                </div>\r\n              </div>\r\n            </div>\r\n            <div class=\"col-sm-1 col-md-4 col-6\">\r\n              <div class=\"gallery\">\r\n                <img src=\"../../assets/images/mobile_icon.png\" alt=\"SideNav\">\r\n                <div class=\"desc\">\r\n                  <h5><a class=\"nav-link\" [routerLink]=\"['/Bootstrap']\" fragment=\"bs-carousel\">Carousel</a></h5>\r\n                </div>\r\n              </div>\r\n            </div>\r\n            <div class=\"col-sm-1 col-md-4 col-6\">\r\n              <div class=\"gallery\">\r\n                <img src=\"../../assets/images/batch_icon.png\" alt=\"DataTable\">\r\n                <div class=\"desc\">\r\n                  <h5><a class=\"nav-link\" [routerLink]=\"['/Bootstrap']\" fragment=\"bs-tabset\">Tabset</a></h5>\r\n                </div>\r\n              </div>\r\n            </div>\r\n          </div>\r\n        </ng-template>\r\n      </ngb-tab>\r\n\r\n      <ngb-tab title=\"PrimeNG\">\r\n        <ng-template ngbTabContent>\r\n          <div class=\"row\">\r\n            <div class=\"col-sm-1 col-md-4 col-6\">\r\n              <div class=\"gallery\">\r\n                <img src=\"../../assets/images/desktop_icon.png\" alt=\"Form Control\" >\r\n                <div class=\"desc\">\r\n                  <h5><a class=\"nav-link\" [routerLink]=\"['/PrimeNG']\" fragment=\"primeng-form-control\">Form Control</a></h5>\r\n                </div>\r\n              </div>\r\n            </div>\r\n            <div class=\"col-sm-1 col-md-4 col-6\">\r\n              <div class=\"gallery\">\r\n                <img src=\"../../assets/images/web_icon.png\" alt=\"Button\">\r\n                <div class=\"desc\">\r\n                  <h5><a class=\"nav-link\" [routerLink]=\"['/PrimeNG']\" fragment=\"primeng-button\">Button</a></h5>\r\n                </div>\r\n              </div>\r\n            </div>\r\n            <div class=\"col-sm-1 col-md-4 col-6\">\r\n              <div class=\"gallery\">\r\n                <img src=\"../../assets/images/mobile_icon.png\" alt=\"Menubar\">\r\n                <div class=\"desc\">\r\n                  <h5><a class=\"nav-link\" [routerLink]=\"['/PrimeNG']\" fragment=\"primeng-menubar\">Menubar</a></h5>\r\n                </div>\r\n              </div>\r\n            </div>\r\n            <div class=\"col-sm-1 col-md-4 col-6\">\r\n              <div class=\"gallery\">\r\n                <img src=\"../../assets/images/batch_icon.png\" alt=\"DataTable\">\r\n                <div class=\"desc\">\r\n                  <h5><a class=\"nav-link\" [routerLink]=\"['/PrimeNG']\" fragment=\"primeng-data-table\">DataTable</a></h5>\r\n                </div>\r\n              </div>\r\n            </div>\r\n          </div>\r\n        </ng-template>\r\n      </ngb-tab>\r\n\r\n      <ngb-tab title=\"Misc\">\r\n        <ng-template ngbTabContent>\r\n          <div class=\"row\">\r\n            <div class=\"col-sm-1 col-md-4 col-6\">\r\n              <div class=\"gallery\">\r\n                <img src=\"../../assets/images/desktop_icon.png\" alt=\"Form Control\" >\r\n                <div class=\"desc\">\r\n                  <h5><a class=\"nav-link\" [routerLink]=\"['/Misc']\" fragment=\"ngx-translate\">ngx-translate</a></h5>\r\n                </div>\r\n              </div>\r\n            </div>\r\n            <div class=\"col-sm-1 col-md-4 col-6\">\r\n              <div class=\"gallery\">\r\n                <img src=\"../../assets/images/web_icon.png\" alt=\"Button\">\r\n                <div class=\"desc\">\r\n                  <h5><a class=\"nav-link\" [routerLink]=\"['/Misc']\" fragment=\"ag-grid\">ag-Grid</a></h5>\r\n                </div>\r\n              </div>\r\n            </div>\r\n          </div>\r\n        </ng-template>\r\n      </ngb-tab>\r\n    </ngb-tabset>\r\n  </div>\r\n</div>\r\n"
+module.exports = "<div class=\"container-fluid about\">\r\n  <div class=\"container\">\r\n    <ngb-tabset type=\"pills\" class=\"tabset\">\r\n      <ngb-tab title=\"Material Design (Covalent)\">\r\n        <ng-template ngbTabContent>\r\n          <div class=\"row\">\r\n            <div class=\"col-sm-1 col-md-4 col-6\">\r\n              <div class=\"gallery\">\r\n                <img src=\"assets/images/desktop_icon.png\" alt=\"Form Control\" >\r\n                <div class=\"desc\">\r\n                  <h5><a class=\"nav-link\" [routerLink]=\"['/MaterialDesign']\" fragment=\"md-form-control\">Form Control</a></h5>\r\n                </div>\r\n              </div>\r\n            </div>\r\n            <div class=\"col-sm-1 col-md-4 col-6\">\r\n              <div class=\"gallery\">\r\n                <img src=\"assets/images/web_icon.png\" alt=\"Button\">\r\n                <div class=\"desc\">\r\n                  <h5><a class=\"nav-link\" [routerLink]=\"['/MaterialDesign']\" fragment=\"md-button\">Buttons</a></h5>\r\n                </div>\r\n              </div>\r\n            </div>\r\n            <div class=\"col-sm-1 col-md-4 col-6\">\r\n              <div class=\"gallery\">\r\n                <img src=\"assets/images/mobile_icon.png\" alt=\"SideNav\">\r\n                <div class=\"desc\">\r\n                  <h5><a class=\"nav-link\" [routerLink]=\"['/MaterialDesign']\" fragment=\"md-sidenav\">SideNav</a></h5>\r\n                </div>\r\n              </div>\r\n            </div>\r\n            <div class=\"col-sm-1 col-md-4 col-6\">\r\n              <div class=\"gallery\">\r\n                <img src=\"assets/images/batch_icon.png\" alt=\"DataTable\">\r\n                <div class=\"desc\">\r\n                  <h5><a class=\"nav-link\" [routerLink]=\"['/MaterialDesign']\" fragment=\"md-data-table\">DataTable</a></h5>\r\n                </div>\r\n              </div>\r\n            </div>\r\n          </div>\r\n        </ng-template>\r\n      </ngb-tab>\r\n\r\n      <ngb-tab title=\"Bootstrap\">\r\n        <ng-template ngbTabContent>\r\n          <div class=\"row\">\r\n            <div class=\"col-sm-1 col-md-4 col-6\">\r\n              <div class=\"gallery\">\r\n                <img src=\"assets/images/desktop_icon.png\" alt=\"Form Control\" >\r\n                <div class=\"desc\">\r\n                  <h5><a class=\"nav-link\" [routerLink]=\"['/Bootstrap']\" fragment=\"bs-form-control\">Form Controls</a></h5>\r\n                </div>\r\n              </div>\r\n            </div>\r\n            <div class=\"col-sm-1 col-md-4 col-6\">\r\n              <div class=\"gallery\">\r\n                <img src=\"assets/images/web_icon.png\" alt=\"Button\">\r\n                <div class=\"desc\">\r\n                  <h5><a class=\"nav-link\" [routerLink]=\"['/Bootstrap']\" fragment=\"bs-button\">Buttons</a></h5>\r\n                </div>\r\n              </div>\r\n            </div>\r\n            <div class=\"col-sm-1 col-md-4 col-6\">\r\n              <div class=\"gallery\">\r\n                <img src=\"assets/images/mobile_icon.png\" alt=\"SideNav\">\r\n                <div class=\"desc\">\r\n                  <h5><a class=\"nav-link\" [routerLink]=\"['/Bootstrap']\" fragment=\"bs-carousel\">Carousel</a></h5>\r\n                </div>\r\n              </div>\r\n            </div>\r\n            <div class=\"col-sm-1 col-md-4 col-6\">\r\n              <div class=\"gallery\">\r\n                <img src=\"assets/images/batch_icon.png\" alt=\"DataTable\">\r\n                <div class=\"desc\">\r\n                  <h5><a class=\"nav-link\" [routerLink]=\"['/Bootstrap']\" fragment=\"bs-tabset\">Tabset</a></h5>\r\n                </div>\r\n              </div>\r\n            </div>\r\n          </div>\r\n        </ng-template>\r\n      </ngb-tab>\r\n\r\n      <ngb-tab title=\"PrimeNG\">\r\n        <ng-template ngbTabContent>\r\n          <div class=\"row\">\r\n            <div class=\"col-sm-1 col-md-4 col-6\">\r\n              <div class=\"gallery\">\r\n                <img src=\"assets/images/desktop_icon.png\" alt=\"Form Control\" >\r\n                <div class=\"desc\">\r\n                  <h5><a class=\"nav-link\" [routerLink]=\"['/PrimeNG']\" fragment=\"primeng-form-control\">Form Control</a></h5>\r\n                </div>\r\n              </div>\r\n            </div>\r\n            <div class=\"col-sm-1 col-md-4 col-6\">\r\n              <div class=\"gallery\">\r\n                <img src=\"assets/images/web_icon.png\" alt=\"Button\">\r\n                <div class=\"desc\">\r\n                  <h5><a class=\"nav-link\" [routerLink]=\"['/PrimeNG']\" fragment=\"primeng-button\">Button</a></h5>\r\n                </div>\r\n              </div>\r\n            </div>\r\n            <div class=\"col-sm-1 col-md-4 col-6\">\r\n              <div class=\"gallery\">\r\n                <img src=\"assets/images/mobile_icon.png\" alt=\"Menubar\">\r\n                <div class=\"desc\">\r\n                  <h5><a class=\"nav-link\" [routerLink]=\"['/PrimeNG']\" fragment=\"primeng-menubar\">Menubar</a></h5>\r\n                </div>\r\n              </div>\r\n            </div>\r\n            <div class=\"col-sm-1 col-md-4 col-6\">\r\n              <div class=\"gallery\">\r\n                <img src=\"assets/images/batch_icon.png\" alt=\"DataTable\">\r\n                <div class=\"desc\">\r\n                  <h5><a class=\"nav-link\" [routerLink]=\"['/PrimeNG']\" fragment=\"primeng-data-table\">DataTable</a></h5>\r\n                </div>\r\n              </div>\r\n            </div>\r\n          </div>\r\n        </ng-template>\r\n      </ngb-tab>\r\n\r\n      <ngb-tab title=\"Misc\">\r\n        <ng-template ngbTabContent>\r\n          <div class=\"row\">\r\n            <div class=\"col-sm-1 col-md-4 col-6\">\r\n              <div class=\"gallery\">\r\n                <img src=\"assets/images/desktop_icon.png\" alt=\"Form Control\" >\r\n                <div class=\"desc\">\r\n                  <h5><a class=\"nav-link\" [routerLink]=\"['/Misc']\" fragment=\"ngx-translate\">ngx-translate</a></h5>\r\n                </div>\r\n              </div>\r\n            </div>\r\n            <div class=\"col-sm-1 col-md-4 col-6\">\r\n              <div class=\"gallery\">\r\n                <img src=\"assets/images/web_icon.png\" alt=\"Button\">\r\n                <div class=\"desc\">\r\n                  <h5><a class=\"nav-link\" [routerLink]=\"['/Misc']\" fragment=\"ag-grid\">ag-Grid</a></h5>\r\n                </div>\r\n              </div>\r\n            </div>\r\n          </div>\r\n        </ng-template>\r\n      </ngb-tab>\r\n    </ngb-tabset>\r\n  </div>\r\n</div>\r\n"
 
 /***/ }),
 
@@ -2966,16 +2966,16 @@ var TabPanelComponent = (function () {
     function TabPanelComponent() {
     }
     TabPanelComponent.prototype.ngOnInit = function () { };
+    TabPanelComponent = __decorate([
+        __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["Component"])({
+            selector: 'app-tab-panel',
+            template: __webpack_require__("../../../../../src/app/tab-panel/tab-panel.component.html"),
+            styles: [__webpack_require__("../../../../../src/app/tab-panel/tab-panel.component.css")]
+        }),
+        __metadata("design:paramtypes", [])
+    ], TabPanelComponent);
     return TabPanelComponent;
 }());
-TabPanelComponent = __decorate([
-    __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["Component"])({
-        selector: 'app-tab-panel',
-        template: __webpack_require__("../../../../../src/app/tab-panel/tab-panel.component.html"),
-        styles: [__webpack_require__("../../../../../src/app/tab-panel/tab-panel.component.css")]
-    }),
-    __metadata("design:paramtypes", [])
-], TabPanelComponent);
 
 //# sourceMappingURL=tab-panel.component.js.map
 
@@ -2984,7 +2984,7 @@ TabPanelComponent = __decorate([
 /***/ "../../../../../src/app/used-technologies/used-technologies.component.css":
 /***/ (function(module, exports, __webpack_require__) {
 
-exports = module.exports = __webpack_require__("../../node_modules/css-loader/lib/css-base.js")(false);
+exports = module.exports = __webpack_require__("../../../../css-loader/lib/css-base.js")(false);
 // imports
 
 
@@ -3002,7 +3002,7 @@ module.exports = module.exports.toString();
 /***/ "../../../../../src/app/used-technologies/used-technologies.component.html":
 /***/ (function(module, exports) {
 
-module.exports = "<div class=\"container-fluid usedTechnologies\">\r\n  <div class=\"container\">\r\n    <div class=\"row logos-tech\">\r\n      <div class=\"col-md-3 col-sm-6 col-6\">\r\n        <a href=\"https://spring.io/\" target=\"_blank\"><img alt=\"spring-logo\" src=\"../../assets/logos/spring_logo.png\"></a>\r\n      </div>\r\n      <div class=\"col-md-3 col-sm-12  col-6\">\r\n        <a href=\"https://www.java.com/\" target=\"_blank\"><img alt=\"javaee-logo\" src=\"../../assets/logos/java_ee.png\"></a>\r\n      </div>\r\n      <div class=\"col-md-3 col-sm-12  col-6\">\r\n        <a href=\"http://projects.spring.io/spring-boot/\" target=\"_blank\"><img alt=\"springboot-logo\" src=\"../../assets/logos/boot_logo.png\"></a>\r\n      </div>\r\n      <div class=\"col-md-3 col-sm-12  col-6\">\r\n        <a href=\"http://www.querydsl.com/\" target=\"_blank\"><img alt=\"querydsl-logo\" src=\"../../assets/logos/query_logo.png\"></a>\r\n      </div>\r\n      <div class=\"col-md-3 col-sm-12  col-6\">\r\n        <a href=\"http://flywaydb.org/\" target=\"_blank\"><img alt=\"flyway-logo\" src=\"../../assets/logos/flyway_logo.png\"></a>\r\n      </div>\r\n      <div class=\"col-md-3 col-sm-12  col-6\">\r\n        <a href=\"https://angularjs.org/\" target=\"_blank\"><img alt=\"angularjs-logo\" src=\"../../assets/logos/angular_logo.svg.png\"></a>\r\n      </div>\r\n      <div class=\"col-md-3 col-sm-12  col-6\">\r\n        <a href=\"http://maven.apache.org/\" target=\"_blank\"><img alt=\"maven-logo\" src=\"../../assets/logos/maven_logo.svg.png\"></a>\r\n      </div>\r\n      <div class=\"col-md-3 col-sm-12  col-6\">\r\n        <a href=\"http://cxf.apache.org/\" target=\"_blank\"><img alt=\"apache-logo\" src=\"../../assets/logos/apache_logo.png\"></a>\r\n      </div>\r\n    </div>\r\n  </div>\r\n</div>\r\n"
+module.exports = "<div class=\"container-fluid usedTechnologies\">\r\n  <div class=\"container\">\r\n    <div class=\"row logos-tech\">\r\n      <div class=\"col-md-3 col-sm-6 col-6\">\r\n        <a href=\"https://spring.io/\" target=\"_blank\"><img alt=\"spring-logo\" src=\"assets/logos/spring_logo.png\"></a>\r\n      </div>\r\n      <div class=\"col-md-3 col-sm-12  col-6\">\r\n        <a href=\"https://www.java.com/\" target=\"_blank\"><img alt=\"javaee-logo\" src=\"assets/logos/java_ee.png\"></a>\r\n      </div>\r\n      <div class=\"col-md-3 col-sm-12  col-6\">\r\n        <a href=\"http://projects.spring.io/spring-boot/\" target=\"_blank\"><img alt=\"springboot-logo\" src=\"assets/logos/boot_logo.png\"></a>\r\n      </div>\r\n      <div class=\"col-md-3 col-sm-12  col-6\">\r\n        <a href=\"http://www.querydsl.com/\" target=\"_blank\"><img alt=\"querydsl-logo\" src=\"assets/logos/query_logo.png\"></a>\r\n      </div>\r\n      <div class=\"col-md-3 col-sm-12  col-6\">\r\n        <a href=\"http://flywaydb.org/\" target=\"_blank\"><img alt=\"flyway-logo\" src=\"assets/logos/flyway_logo.png\"></a>\r\n      </div>\r\n      <div class=\"col-md-3 col-sm-12  col-6\">\r\n        <a href=\"https://angularjs.org/\" target=\"_blank\"><img alt=\"angularjs-logo\" src=\"assets/logos/angular_logo.svg.png\"></a>\r\n      </div>\r\n      <div class=\"col-md-3 col-sm-12  col-6\">\r\n        <a href=\"http://maven.apache.org/\" target=\"_blank\"><img alt=\"maven-logo\" src=\"assets/logos/maven_logo.svg.png\"></a>\r\n      </div>\r\n      <div class=\"col-md-3 col-sm-12  col-6\">\r\n        <a href=\"http://cxf.apache.org/\" target=\"_blank\"><img alt=\"apache-logo\" src=\"assets/logos/apache_logo.png\"></a>\r\n      </div>\r\n    </div>\r\n  </div>\r\n</div>\r\n"
 
 /***/ }),
 
@@ -3027,16 +3027,16 @@ var UsedTechnologiesComponent = (function () {
     }
     UsedTechnologiesComponent.prototype.ngOnInit = function () {
     };
+    UsedTechnologiesComponent = __decorate([
+        __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["Component"])({
+            selector: 'app-used-technologies',
+            template: __webpack_require__("../../../../../src/app/used-technologies/used-technologies.component.html"),
+            styles: [__webpack_require__("../../../../../src/app/used-technologies/used-technologies.component.css")]
+        }),
+        __metadata("design:paramtypes", [])
+    ], UsedTechnologiesComponent);
     return UsedTechnologiesComponent;
 }());
-UsedTechnologiesComponent = __decorate([
-    __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["Component"])({
-        selector: 'app-used-technologies',
-        template: __webpack_require__("../../../../../src/app/used-technologies/used-technologies.component.html"),
-        styles: [__webpack_require__("../../../../../src/app/used-technologies/used-technologies.component.css")]
-    }),
-    __metadata("design:paramtypes", [])
-], UsedTechnologiesComponent);
 
 //# sourceMappingURL=used-technologies.component.js.map
 
@@ -3114,7 +3114,6 @@ module.exports = __webpack_require__.p + "testimonials.9585486bc2d962811715.png"
 // The build system defaults to the dev environment which uses `environment.ts`, but if you do
 // `ng build --env=prod` then `environment.prod.ts` will be used instead.
 // The list of which env maps to which file can be found in `.angular-cli.json`.
-// The file contents for the current environment will overwrite these during build.
 var environment = {
     production: false
 };

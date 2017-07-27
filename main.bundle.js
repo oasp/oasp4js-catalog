@@ -1032,7 +1032,7 @@ module.exports = module.exports.toString();
 /***/ "../../../../../src/app/header/header.component.html":
 /***/ (function(module, exports) {
 
-module.exports = "<nav class=\"navbar fixed-top navbar-toggleable-md navbar-light bg-faded\">\r\n  <button class=\"navbar-toggler navbar-toggler-right\" type=\"button\" (click)=\"isCollapsed = !isCollapsed\">\r\n    <span class=\"navbar-toggler-icon\"></span>\r\n  </button>\r\n  <a class=\"navbar-brand\" href=\"/angular-comp-list\"><img src=\"assets/images/OASP.png\"></a>\r\n\r\n  <div class=\"title-format\"> OASP4JS Angular Catalog  </div>\r\n</nav>\r\n"
+module.exports = "<nav class=\"navbar fixed-top navbar-toggleable-md navbar-light bg-faded\">\r\n  <button class=\"navbar-toggler navbar-toggler-right\" type=\"button\" (click)=\"isCollapsed = !isCollapsed\">\r\n    <span class=\"navbar-toggler-icon\"></span>\r\n  </button>\r\n  <a class=\"navbar-brand\" [routerLink]=\"['/angular-comp-list']\"><img src=\"assets/images/OASP.png\"></a>\r\n\r\n  <div class=\"title-format\"> OASP4JS Angular Catalog  </div>\r\n</nav>\r\n"
 
 /***/ }),
 
